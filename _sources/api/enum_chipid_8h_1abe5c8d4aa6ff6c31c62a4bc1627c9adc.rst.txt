@@ -1,0 +1,14 @@
+.. _exhale_enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc:
+
+Enum ChipID
+===========
+
+- Defined in :ref:`file_include_embers_amdgpu_chipid.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: embers::amdgpu::ChipID
+   :project: embers

@@ -1,0 +1,14 @@
+.. _exhale_variable_ethash__consts_8h_1a1b6630776122ecff6bd4dd9daed27904:
+
+Variable embers::crypto::ethash::EthashCacheSizes
+=================================================
+
+- Defined in :ref:`file_include_embers_crypto_ethash_ethash_consts.h`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: embers::crypto::ethash::EthashCacheSizes
+   :project: embers

@@ -1,0 +1,55 @@
+
+.. _file_include_embers_primitives_locking_queue_impl.h:
+
+File locking_queue_impl.h
+=========================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/locking_queue_impl.h``)
+---------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_locking_queue_impl.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/memory.h`` (:ref:`file_include_embers_memory.h`)
+
+- ``embers/primitives/backoff.h`` (:ref:`file_include_embers_primitives_backoff.h`)
+
+- ``embers/primitives/locking_queue.h`` (:ref:`file_include_embers_primitives_locking_queue.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_locking_queue.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+

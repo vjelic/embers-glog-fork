@@ -1,0 +1,26 @@
+.. _exhale_class_classembers_1_1StatusError:
+
+Class StatusError
+=================
+
+- Defined in :ref:`file_include_embers_status.h`
+
+
+Inheritance Relationships
+-------------------------
+
+Base Type
+*********
+
+- ``public std::exception``
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::StatusError
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

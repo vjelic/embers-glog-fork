@@ -1,0 +1,83 @@
+
+.. _program_listing_file_include_embers_primitives_rwlock.h:
+
+Program Listing for File rwlock.h
+=================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_embers_primitives_rwlock.h>` (``include/embers/primitives/rwlock.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */
+   
+   #ifndef _EMBERS_RWLOCK_H_
+   #define _EMBERS_RWLOCK_H_
+   
+   #include <cstdint>
+   
+   #include "spinlock.h"
+   
+   namespace embers
+   {
+   
+   template <MemoryScope scope = MemoryScope::SYSTEM>
+   class RWLock
+   {
+    private:
+     SpinLock<scope> r_;
+     SpinLock<scope> g_;
+     int b_;
+    public:
+     RWLock() : b_(0), r_(SpinLock<scope>()), g_(SpinLock<scope>()) {}
+     ~RWLock() = default;
+     RWLock(const RWLock &) = delete;
+     RWLock &operator=(const RWLock &) = delete;
+     RWLock(RWLock &&) = delete;
+   
+     __host__ __device__ void AcquireShared()
+     {
+       r_.Acquire();
+       b_++;
+       if (b_ == 1) {
+         g_.Acquire();
+       }
+       r_.Release();
+     }
+   
+     __host__ __device__ bool TryAcquireShared()
+     {
+       bool valid = r_.TryAcquire();
+       if (!valid) return false;
+       b_++;
+       if (b_ == 1) {
+         valid = g_.TryAcquire();
+         if (!valid) {
+           b_--;
+         }
+       }
+       r_.Release();
+       return valid;
+     }
+   
+     __host__ __device__ void ReleaseShared()
+     {
+       r_.Acquire();
+       b_--;
+       if (b_ == 0) {
+         g_.Release();
+       }
+       r_.Release();
+     }
+   
+     __host__ __device__ void Acquire() { g_.Acquire(); }
+   
+     __host__ __device__ bool TryAcquire() { return g_.TryAcquire(); }
+   
+     __host__ __device__ void Release() { g_.Release(); }
+   };
+   
+   }  // namespace embers
+   
+   #endif  // _EMBERS_RWLOCK_H_

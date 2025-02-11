@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1TicketLock:
+
+Template Class TicketLock
+=========================
+
+- Defined in :ref:`file_include_embers_primitives_ticketlock.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::TicketLock
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,17 @@
+.. _exhale_struct_structembers_1_1__Unique__if_3_01T_0fN_0e_4:
+
+Template Struct _Unique_if< T[N] >
+==================================
+
+- Defined in :ref:`file_include_embers_memory_unique_ptr.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: embers::_Unique_if< T[N]>
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

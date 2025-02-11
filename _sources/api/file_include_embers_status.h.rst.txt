@@ -1,0 +1,85 @@
+
+.. _file_include_embers_status.h:
+
+File status.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/status.h``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_status.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/helpers/std_source_location.h`` (:ref:`file_include_embers_helpers_std_source_location.h`)
+
+- ``exception``
+
+- ``functional``
+
+- ``hip/hip_runtime.h``
+
+- ``sstream``
+
+- ``variant``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_amdgpu_hwid.h`
+
+- :ref:`file_include_embers_memory_hip_detail_memory.h`
+
+- :ref:`file_include_embers_primitives_grid_barrier_impl.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structembers_1_1Status`
+
+- :ref:`exhale_class_classembers_1_1StatusError`
+
+- :ref:`exhale_class_classembers_1_1ValueOrError`
+
+- :ref:`exhale_class_classembers_1_1ValueOrError_3_01T_01_6_01_4`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26`
+

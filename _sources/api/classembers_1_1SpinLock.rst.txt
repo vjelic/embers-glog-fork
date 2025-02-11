@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1SpinLock:
+
+Template Class SpinLock
+=======================
+
+- Defined in :ref:`file_include_embers_primitives_spinlock.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::SpinLock
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,51 @@
+
+.. _program_listing_file_include_embers_primitives_spinlock.h:
+
+Program Listing for File spinlock.h
+===================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_embers_primitives_spinlock.h>` (``include/embers/primitives/spinlock.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */
+   
+   #ifndef _EMBERS_SPINLOCK_H_
+   #define _EMBERS_SPINLOCK_H_
+   
+   #include <cstdint>
+   #include <type_traits>
+   
+   #include "embers/atomic.h"
+   
+   namespace embers
+   {
+   
+   template <MemoryScope scope = MemoryScope::SYSTEM, typename Integer = uint64_t,
+             typename enable = std::enable_if_t<std::is_integral<Integer>::value> >
+   class SpinLock
+   {
+    private:
+     atomic<Integer, scope> lock_;
+   
+    public:
+     SpinLock();
+     ~SpinLock() = default;
+     SpinLock(const SpinLock &) = delete;
+     SpinLock &operator=(const SpinLock &) = delete;
+     SpinLock(SpinLock &&) = delete;
+   
+     __host__ __device__ void Acquire();
+   
+     __host__ __device__ void Release();
+   
+     // Tries to acquire the lock, returns if not availble
+     __host__ __device__ bool TryAcquire();
+   };
+   
+   }  // namespace embers
+   
+   #include "spinlock_impl.h"
+   #endif  // _EMBERS_SPINLOCK_H_

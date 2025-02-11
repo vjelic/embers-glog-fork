@@ -1,0 +1,68 @@
+
+.. _file_include_embers_primitives_nonlocking_queue.h:
+
+File nonlocking_queue.h
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/nonlocking_queue.h``)
+-------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_nonlocking_queue.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``counters.h`` (:ref:`file_include_embers_primitives_counters.h`)
+
+- ``embers/atomic.h`` (:ref:`file_include_embers_atomic.h`)
+
+- ``embers/memory.h`` (:ref:`file_include_embers_memory.h`)
+
+- ``nonlocking_queue_impl.h`` (:ref:`file_include_embers_primitives_nonlocking_queue_impl.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_nonlocking_queue_impl.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue`
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Contents`
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Entry`
+

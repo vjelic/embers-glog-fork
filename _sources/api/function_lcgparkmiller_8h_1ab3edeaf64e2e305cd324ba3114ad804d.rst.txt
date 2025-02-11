@@ -1,0 +1,14 @@
+.. _exhale_function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d:
+
+Function embers::rand::lcg_parkmiller
+=====================================
+
+- Defined in :ref:`file_include_embers_rand_lcgparkmiller.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::rand::lcg_parkmiller(uint32_t *)
+   :project: embers

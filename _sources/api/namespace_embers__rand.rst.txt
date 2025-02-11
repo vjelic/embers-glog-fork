@@ -1,0 +1,26 @@
+
+.. _namespace_embers__rand:
+
+Namespace embers::rand
+======================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_fill__buffer__rand_8h_1aa3729496f8bd10d70b8712d320981526`
+
+- :ref:`exhale_function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565`
+
+- :ref:`exhale_function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d`
+
+- :ref:`exhale_function_rand_8h_1a56b9de419b2050932d195fdde17288d8`

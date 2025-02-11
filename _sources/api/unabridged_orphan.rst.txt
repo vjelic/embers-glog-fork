@@ -1,0 +1,233 @@
+:orphan:
+
+
+Full API
+========
+
+Directories
+***********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_amdgpu.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_crypto.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_crypto_ethash.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_helpers.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_memory.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_memory_hip_detail.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_primitives.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_embers_rand.rst
+
+Files
+*****
+
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_helpers_almost_equal.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_helpers_almost_equal_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_amdgpu_arch.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_atomic.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_backoff.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_barrier.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_amdgpu_chipid.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_counters.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_crypto_ethash_ethash_consts.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_rand_fill_buffer_rand.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_grid_barrier.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_grid_barrier_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_crypto_helpers.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_amdgpu_hwid.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_rand_lcgparkmiller.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_rand_lcgparkmiller_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_locking_queue.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_locking_queue_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_memory_hip_detail_memory.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_memory.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_memory_memory_model.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_nonlocking_queue.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_nonlocking_queue_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_rand_rand.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_amdgpu_realtime.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_rwlock.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_spinlock.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_spinlock_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_status.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_helpers_std_source_location.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_ticketlock.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_primitives_ticketlock_impl.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_memory_unique_ptr.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_embers_helpers_xlator.h.rst

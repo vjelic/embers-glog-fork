@@ -1,0 +1,70 @@
+
+.. _file_include_embers_primitives_backoff.h:
+
+File backoff.h
+==============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/backoff.h``)
+----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_backoff.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``hip/hip_runtime.h``
+
+- ``thread``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_barrier.h`
+
+- :ref:`file_include_embers_primitives_counters.h`
+
+- :ref:`file_include_embers_primitives_locking_queue_impl.h`
+
+- :ref:`file_include_embers_primitives_nonlocking_queue_impl.h`
+
+- :ref:`file_include_embers_primitives_spinlock_impl.h`
+
+- :ref:`file_include_embers_primitives_ticketlock_impl.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_backoff_8h_1a508b1091bace83dd65e362243d042266`
+

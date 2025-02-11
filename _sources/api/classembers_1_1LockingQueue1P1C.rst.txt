@@ -1,0 +1,27 @@
+.. _exhale_class_classembers_1_1LockingQueue1P1C:
+
+Template Class LockingQueue1P1C
+===============================
+
+- Defined in :ref:`file_include_embers_primitives_locking_queue.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_class_classembers_1_1LockingQueue1P1C_1_1Contents`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::LockingQueue1P1C
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

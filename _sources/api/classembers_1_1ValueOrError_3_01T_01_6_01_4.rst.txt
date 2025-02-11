@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1ValueOrError_3_01T_01_6_01_4:
+
+Template Class ValueOrError< T & >
+==================================
+
+- Defined in :ref:`file_include_embers_status.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::ValueOrError< T & >
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

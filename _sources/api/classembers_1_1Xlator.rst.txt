@@ -1,0 +1,28 @@
+.. _exhale_class_classembers_1_1Xlator:
+
+Class Xlator
+============
+
+- Defined in :ref:`file_include_embers_helpers_xlator.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_struct_structembers_1_1Xlator_1_1Translation`
+- :ref:`exhale_union_unionembers_1_1Xlator_1_1pagemap__entry`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::Xlator
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

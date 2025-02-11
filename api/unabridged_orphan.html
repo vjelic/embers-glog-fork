@@ -1,0 +1,693 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full API &mdash; embers  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            embers
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="embers_root.html">Embers API</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">embers</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Full API</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/unabridged_orphan.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="full-api">
+<h1>Full API<a class="headerlink" href="#full-api" title="Link to this heading"></a></h1>
+<section id="directories">
+<h2>Directories<a class="headerlink" href="#directories" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include.html">Directory include</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include.html#subdirectories">Subdirectories</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers.html">Directory embers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers.html#subdirectories">Subdirectories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_amdgpu.html">Directory amdgpu</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_amdgpu.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_crypto.html">Directory crypto</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_crypto.html#subdirectories">Subdirectories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_crypto.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_crypto_ethash.html">Directory ethash</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_crypto_ethash.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_helpers.html">Directory helpers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_helpers.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_memory.html">Directory memory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_memory.html#subdirectories">Subdirectories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_memory.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_memory_hip_detail.html">Directory hip_detail</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_memory_hip_detail.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_primitives.html">Directory primitives</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_primitives.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dir_include_embers_rand.html">Directory rand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dir_include_embers_rand.html#files">Files</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="files">
+<h2>Files<a class="headerlink" href="#files" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_helpers_almost_equal.h.html">File almost_equal.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal.h.html#definition-include-embers-helpers-almost-equal-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/helpers/almost_equal.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_helpers_almost_equal.h.html">Program Listing for File almost_equal.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html">File almost_equal_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html#definition-include-embers-helpers-almost-equal-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/helpers/almost_equal_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_helpers_almost_equal_impl.h.html">Program Listing for File almost_equal_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_almost_equal_impl.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html">File arch.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#definition-include-embers-amdgpu-arch-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/amdgpu/arch.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_amdgpu_arch.h.html">Program Listing for File arch.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_arch.h.html#enums">Enums</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_atomic.h.html">File atomic.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_atomic.h.html#definition-include-embers-atomic-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/atomic.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_atomic.h.html">Program Listing for File atomic.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_atomic.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_atomic.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_atomic.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_atomic.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html">File backoff.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html#definition-include-embers-primitives-backoff-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/backoff.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_backoff.h.html">Program Listing for File backoff.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_backoff.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_barrier.h.html">File barrier.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_barrier.h.html#definition-include-embers-primitives-barrier-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/barrier.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_barrier.h.html">Program Listing for File barrier.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_barrier.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_barrier.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_barrier.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html">File chipid.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html#definition-include-embers-amdgpu-chipid-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/amdgpu/chipid.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_amdgpu_chipid.h.html">Program Listing for File chipid.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html#enums">Enums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_chipid.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_counters.h.html">File counters.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_counters.h.html#definition-include-embers-primitives-counters-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/counters.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_counters.h.html">Program Listing for File counters.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_counters.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_counters.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_counters.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_counters.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_crypto_ethash_ethash_consts.h.html">File ethash_consts.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_ethash_ethash_consts.h.html#definition-include-embers-crypto-ethash-ethash-consts-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/crypto/ethash/ethash_consts.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_crypto_ethash_ethash_consts.h.html">Program Listing for File ethash_consts.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_ethash_ethash_consts.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_ethash_ethash_consts.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_ethash_ethash_consts.h.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_rand_fill_buffer_rand.h.html">File fill_buffer_rand.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_fill_buffer_rand.h.html#definition-include-embers-rand-fill-buffer-rand-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/rand/fill_buffer_rand.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_rand_fill_buffer_rand.h.html">Program Listing for File fill_buffer_rand.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_fill_buffer_rand.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_fill_buffer_rand.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_fill_buffer_rand.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html">File grid_barrier.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html#definition-include-embers-primitives-grid-barrier-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/grid_barrier.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_grid_barrier.h.html">Program Listing for File grid_barrier.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_grid_barrier_impl.h.html">File grid_barrier_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier_impl.h.html#definition-include-embers-primitives-grid-barrier-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/grid_barrier_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_grid_barrier_impl.h.html">Program Listing for File grid_barrier_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_grid_barrier_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html">File helpers.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html#definition-include-embers-crypto-helpers-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/crypto/helpers.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_crypto_helpers.h.html">Program Listing for File helpers.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_crypto_helpers.h.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_amdgpu_hwid.h.html">File hwid.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_hwid.h.html#definition-include-embers-amdgpu-hwid-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/amdgpu/hwid.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_amdgpu_hwid.h.html">Program Listing for File hwid.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_hwid.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_hwid.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_hwid.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller.h.html">File lcgparkmiller.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller.h.html#definition-include-embers-rand-lcgparkmiller-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/rand/lcgparkmiller.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_rand_lcgparkmiller.h.html">Program Listing for File lcgparkmiller.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller_impl.h.html">File lcgparkmiller_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller_impl.h.html#definition-include-embers-rand-lcgparkmiller-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/rand/lcgparkmiller_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_rand_lcgparkmiller_impl.h.html">Program Listing for File lcgparkmiller_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_lcgparkmiller_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html">File locking_queue.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html#definition-include-embers-primitives-locking-queue-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/locking_queue.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_locking_queue.h.html">Program Listing for File locking_queue.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_locking_queue_impl.h.html">File locking_queue_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue_impl.h.html#definition-include-embers-primitives-locking-queue-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/locking_queue_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_locking_queue_impl.h.html">Program Listing for File locking_queue_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_locking_queue_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_memory_hip_detail_memory.h.html">File memory.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_hip_detail_memory.h.html#definition-include-embers-memory-hip-detail-memory-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/memory/hip_detail/memory.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_memory_hip_detail_memory.h.html">Program Listing for File memory.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_hip_detail_memory.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_hip_detail_memory.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_hip_detail_memory.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_memory.h.html">File memory.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory.h.html#definition-include-embers-memory-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/memory.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_memory.h.html">Program Listing for File memory.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory.h.html#included-by">Included By</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html">File memory_model.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#definition-include-embers-memory-memory-model-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/memory/memory_model.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_memory_memory_model.h.html">Program Listing for File memory_model.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#enums">Enums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_memory_model.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html">File nonlocking_queue.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html#definition-include-embers-primitives-nonlocking-queue-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/nonlocking_queue.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_nonlocking_queue.h.html">Program Listing for File nonlocking_queue.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue_impl.h.html">File nonlocking_queue_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue_impl.h.html#definition-include-embers-primitives-nonlocking-queue-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/nonlocking_queue_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_nonlocking_queue_impl.h.html">Program Listing for File nonlocking_queue_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_nonlocking_queue_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_rand_rand.h.html">File rand.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_rand.h.html#definition-include-embers-rand-rand-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/rand/rand.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_rand_rand.h.html">Program Listing for File rand.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_rand.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_rand.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_rand_rand.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_amdgpu_realtime.h.html">File realtime.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_realtime.h.html#definition-include-embers-amdgpu-realtime-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/amdgpu/realtime.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_amdgpu_realtime.h.html">Program Listing for File realtime.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_realtime.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_realtime.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_amdgpu_realtime.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_rwlock.h.html">File rwlock.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_rwlock.h.html#definition-include-embers-primitives-rwlock-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/rwlock.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_rwlock.h.html">Program Listing for File rwlock.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_rwlock.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_rwlock.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_rwlock.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html">File spinlock.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html#definition-include-embers-primitives-spinlock-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/spinlock.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_spinlock.h.html">Program Listing for File spinlock.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_spinlock_impl.h.html">File spinlock_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock_impl.h.html#definition-include-embers-primitives-spinlock-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/spinlock_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_spinlock_impl.h.html">Program Listing for File spinlock_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_spinlock_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_status.h.html">File status.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#definition-include-embers-status-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/status.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_status.h.html">Program Listing for File status.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_status.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html">File std_source_location.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#definition-include-embers-helpers-std-source-location-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/helpers/std_source_location.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_helpers_std_source_location.h.html">Program Listing for File std_source_location.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#defines">Defines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#typedefs">Typedefs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_std_source_location.h.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html">File ticketlock.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html#definition-include-embers-primitives-ticketlock-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/ticketlock.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_ticketlock.h.html">Program Listing for File ticketlock.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock.h.html#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_primitives_ticketlock_impl.h.html">File ticketlock_impl.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock_impl.h.html#definition-include-embers-primitives-ticketlock-impl-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/primitives/ticketlock_impl.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_primitives_ticketlock_impl.h.html">Program Listing for File ticketlock_impl.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock_impl.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock_impl.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_primitives_ticketlock_impl.h.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html">File unique_ptr.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#definition-include-embers-memory-unique-ptr-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/memory/unique_ptr.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_memory_unique_ptr.h.html">Program Listing for File unique_ptr.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#included-by">Included By</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_memory_unique_ptr.h.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html">File xlator.h</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html#definition-include-embers-helpers-xlator-h">Definition (<code class="docutils literal notranslate"><span class="pre">include/embers/helpers/xlator.h</span></code>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="program_listing_file_include_embers_helpers_xlator.h.html">Program Listing for File xlator.h</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html#includes">Includes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file_include_embers_helpers_xlator.h.html#unions">Unions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

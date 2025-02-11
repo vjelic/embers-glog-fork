@@ -1,0 +1,56 @@
+
+.. _file_include_embers_rand_rand.h:
+
+File rand.h
+===========
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_rand>` (``include/embers/rand``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/rand/rand.h``)
+-------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_rand_rand.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdint``
+
+- ``hip/hip_runtime.h``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__rand`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_rand_8h_1a56b9de419b2050932d195fdde17288d8`
+

@@ -1,0 +1,48 @@
+
+.. _program_listing_file_include_embers_primitives_ticketlock.h:
+
+Program Listing for File ticketlock.h
+=====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_embers_primitives_ticketlock.h>` (``include/embers/primitives/ticketlock.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   /* Copyright © 2020 Advanced Micro Devices, Inc. All rights reserved */
+   
+   #ifndef _EMBERS_TICKETLOCK_H_
+   #define _EMBERS_TICKETLOCK_H_
+   
+   #include "embers/atomic.h"
+   #include <cstdint>
+   
+   namespace embers
+   {
+   
+   template <MemoryScope scope = MemoryScope::SYSTEM, size_t BackoffBase = 1>
+   class TicketLock
+   {
+    private:
+     atomic<uint32_t, scope> next_ticket_;
+     uint8_t pad[128];
+     atomic<uint32_t, scope> now_serving_;
+   
+   
+    public:
+     TicketLock();
+     ~TicketLock() = default;
+     TicketLock(const TicketLock &) = delete;
+     TicketLock &operator=(const TicketLock &) = delete;
+     TicketLock(TicketLock &&) = delete;
+   
+     __host__ __device__ void Acquire() noexcept;
+   
+     __host__ __device__ void Release() noexcept;
+   };
+   
+   }  // namespace embers
+   #include "ticketlock_impl.h"
+   
+   #endif  // _EMBERS_TICKETLOCK_H_

@@ -1,0 +1,64 @@
+
+.. _file_include_embers_helpers_almost_equal_impl.h:
+
+File almost_equal_impl.h
+========================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_helpers>` (``include/embers/helpers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/helpers/almost_equal_impl.h``)
+-----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_helpers_almost_equal_impl.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cmath``
+
+- ``limits``
+
+- ``type_traits``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_helpers_almost_equal.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_almost__equal_8h_1adc554b7043f87c7142695791be565b86`
+
+- :ref:`exhale_function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8`
+

@@ -1,0 +1,13 @@
+
+.. _namespace_embers__device:
+
+Namespace embers::device
+========================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+

@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428:
+
+Function embers::amdgpu::IsVEGA20
+=================================
+
+- Defined in :ref:`file_include_embers_amdgpu_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::amdgpu::IsVEGA20(ChipID)
+   :project: embers

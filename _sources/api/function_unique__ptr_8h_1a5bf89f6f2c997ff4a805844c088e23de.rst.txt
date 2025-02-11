@@ -1,0 +1,14 @@
+.. _exhale_function_unique__ptr_8h_1a5bf89f6f2c997ff4a805844c088e23de:
+
+Template Function embers::operator<(const unique_ptr<T, D>&, std::nullptr_t)
+============================================================================
+
+- Defined in :ref:`file_include_embers_memory_unique_ptr.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::operator<(const unique_ptr<T, D>&, std::nullptr_t)
+   :project: embers

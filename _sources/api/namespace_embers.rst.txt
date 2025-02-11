@@ -1,0 +1,192 @@
+
+.. _namespace_embers:
+
+Namespace embers
+================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers__amdgpu`
+
+- :ref:`namespace_embers__crypto`
+
+- :ref:`namespace_embers__device`
+
+- :ref:`namespace_embers__host`
+
+- :ref:`namespace_embers__rand`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_struct_structembers_1_1__Unique__if`
+
+- :ref:`exhale_struct_structembers_1_1__Unique__if_3_01T_0f_0e_4`
+
+- :ref:`exhale_struct_structembers_1_1__Unique__if_3_01T_0fN_0e_4`
+
+- :ref:`exhale_struct_structembers_1_1Status`
+
+- :ref:`exhale_struct_structembers_1_1Xlator_1_1Translation`
+
+- :ref:`exhale_class_classembers_1_1atomic`
+
+- :ref:`exhale_class_classembers_1_1Barrier`
+
+- :ref:`exhale_class_classembers_1_1GridBarrier`
+
+- :ref:`exhale_class_classembers_1_1LockingQueue1P1C`
+
+- :ref:`exhale_class_classembers_1_1LockingQueue1P1C_1_1Contents`
+
+- :ref:`exhale_class_classembers_1_1MonotonicCounter`
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue`
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Contents`
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Entry`
+
+- :ref:`exhale_class_classembers_1_1RWLock`
+
+- :ref:`exhale_class_classembers_1_1SpinLock`
+
+- :ref:`exhale_class_classembers_1_1StatusError`
+
+- :ref:`exhale_class_classembers_1_1TicketLock`
+
+- :ref:`exhale_class_classembers_1_1unique__ptr`
+
+- :ref:`exhale_class_classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4`
+
+- :ref:`exhale_class_classembers_1_1ValueOrError`
+
+- :ref:`exhale_class_classembers_1_1ValueOrError_3_01T_01_6_01_4`
+
+- :ref:`exhale_class_classembers_1_1Xlator`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_almost__equal_8h_1adc554b7043f87c7142695791be565b86`
+
+- :ref:`exhale_function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8`
+
+- :ref:`exhale_function_backoff_8h_1a508b1091bace83dd65e362243d042266`
+
+- :ref:`exhale_function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c`
+
+- :ref:`exhale_function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c`
+
+- :ref:`exhale_function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b`
+
+- :ref:`exhale_function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce`
+
+- :ref:`exhale_function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff`
+
+- :ref:`exhale_function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86`
+
+- :ref:`exhale_function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a`
+
+- :ref:`exhale_function_unique__ptr_8h_1a3b5a557213445cfe1ebd92b179cb94df`
+
+- :ref:`exhale_function_unique__ptr_8h_1a876207dc4fc483b4c667990a9b8e6098`
+
+- :ref:`exhale_function_unique__ptr_8h_1acf07d2d44f917a03547cc8f4f2455773`
+
+- :ref:`exhale_function_unique__ptr_8h_1afa92a3cd98af2b269e0bce8f33438dc1`
+
+- :ref:`exhale_function_unique__ptr_8h_1a5bf89f6f2c997ff4a805844c088e23de`
+
+- :ref:`exhale_function_unique__ptr_8h_1aeb9d61652c09be64c34e63212149e6df`
+
+- :ref:`exhale_function_unique__ptr_8h_1aabe098d9648b6decfbee4529bf4f6a24`
+
+- :ref:`exhale_function_unique__ptr_8h_1abfeb1a8bd074e424589eed79baacff2e`
+
+- :ref:`exhale_function_unique__ptr_8h_1a6aba1ec9b372470c2a808b654a74f48c`
+
+- :ref:`exhale_function_unique__ptr_8h_1a05d93b6ae4a20294972277de664b10de`
+
+- :ref:`exhale_function_unique__ptr_8h_1af2d6ba0e24e767430c3c74879f1e0b48`
+
+- :ref:`exhale_function_unique__ptr_8h_1aca5261e7d558cd4f454838adbe33b24d`
+
+- :ref:`exhale_function_unique__ptr_8h_1ad2e7027352499570ac0fedfcb2b39786`
+
+- :ref:`exhale_function_unique__ptr_8h_1a3f5e4c85288f43a641f711df331bb887`
+
+- :ref:`exhale_function_unique__ptr_8h_1a4e2ce67beeadeec3cda42a62f22c7537`
+
+- :ref:`exhale_function_unique__ptr_8h_1a57b3ac5aec6aa5b6636abf3f32a712b2`
+
+- :ref:`exhale_function_unique__ptr_8h_1abd7ba587e86f5828458d79fae8a61e39`
+
+- :ref:`exhale_function_unique__ptr_8h_1af0aac460500a85e1e6490ea745d3fd41`
+
+- :ref:`exhale_function_unique__ptr_8h_1a63833f6659853df77136340dd991f874`
+
+- :ref:`exhale_function_unique__ptr_8h_1a9de1f51c9b89ea4ba7523332eb03ad9c`
+
+- :ref:`exhale_function_unique__ptr_8h_1a7a926827181a89acb96059c9c72919fa`
+
+- :ref:`exhale_function_unique__ptr_8h_1a5d29e606b8ce738638cbb124206aa734`
+
+- :ref:`exhale_function_unique__ptr_8h_1a0545e027ee08a730b11d8d5caee3468f`
+
+- :ref:`exhale_function_unique__ptr_8h_1a81f4ded0691dcb7594cb435668836cc0`
+
+- :ref:`exhale_function_unique__ptr_8h_1a1a3a4c5e1cc71c342a24256bd61c06ef`
+
+- :ref:`exhale_function_unique__ptr_8h_1a21ccd087fff05fa3eb4a818c60ac9f5e`
+
+- :ref:`exhale_function_unique__ptr_8h_1a132d0719bdc10e0f924bb8b2a3356b5a`
+
+- :ref:`exhale_function_unique__ptr_8h_1a08574bb6a37f092f38b65f94c109ab9d`
+
+- :ref:`exhale_function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26`
+
+- :ref:`exhale_function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d`
+
+
+Unions
+------
+
+
+- :ref:`exhale_union_unionembers_1_1Xlator_1_1pagemap__entry`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9`

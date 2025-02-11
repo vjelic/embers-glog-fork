@@ -1,0 +1,74 @@
+
+.. _file_include_embers_helpers_std_source_location.h:
+
+File std_source_location.h
+==========================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_helpers>` (``include/embers/helpers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/helpers/std_source_location.h``)
+-------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_helpers_std_source_location.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdint``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_status.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_std__source__location_8h_1a20cb5df3f88bd07135a416ab670710b2`
+
+- :ref:`exhale_define_std__source__location_8h_1ab43b2ef3bb550cf9543e26646586bf8a`
+
+
+Typedefs
+--------
+
+
+- :ref:`exhale_typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d`
+
+
+Variables
+---------
+
+
+- :ref:`exhale_variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9`
+

@@ -1,0 +1,20 @@
+.. _exhale_union_unionembers_1_1Xlator_1_1pagemap__entry:
+
+Union Xlator::pagemap_entry
+===========================
+
+- Defined in :ref:`file_include_embers_helpers_xlator.h`
+
+
+Nested Relationships
+--------------------
+
+This union is a nested type of :ref:`exhale_class_classembers_1_1Xlator`.
+
+
+Union Documentation
+-------------------
+
+
+.. doxygenunion:: embers::Xlator::pagemap_entry
+   :project: embers

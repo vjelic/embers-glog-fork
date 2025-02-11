@@ -1,0 +1,14 @@
+.. _exhale_typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d:
+
+Typedef embers::std_source_location
+===================================
+
+- Defined in :ref:`file_include_embers_helpers_std_source_location.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: embers::std_source_location
+   :project: embers

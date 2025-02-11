@@ -1,0 +1,21 @@
+.. _dir_include_embers_memory_hip_detail:
+
+
+Directory hip_detail
+====================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_memory>` (``include/embers/memory``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/memory/hip_detail``
+
+
+Files
+-----
+
+- :ref:`file_include_embers_memory_hip_detail_memory.h`
+
+

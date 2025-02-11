@@ -1,0 +1,53 @@
+
+.. _file_include_embers_primitives_ticketlock_impl.h:
+
+File ticketlock_impl.h
+======================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/ticketlock_impl.h``)
+------------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_ticketlock_impl.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/primitives/backoff.h`` (:ref:`file_include_embers_primitives_backoff.h`)
+
+- ``embers/primitives/ticketlock.h`` (:ref:`file_include_embers_primitives_ticketlock.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_ticketlock.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+

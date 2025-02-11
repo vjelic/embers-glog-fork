@@ -1,0 +1,24 @@
+.. _dir_include_embers_helpers:
+
+
+Directory helpers
+=================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/helpers``
+
+
+Files
+-----
+
+- :ref:`file_include_embers_helpers_almost_equal.h`
+- :ref:`file_include_embers_helpers_almost_equal_impl.h`
+- :ref:`file_include_embers_helpers_std_source_location.h`
+- :ref:`file_include_embers_helpers_xlator.h`
+
+

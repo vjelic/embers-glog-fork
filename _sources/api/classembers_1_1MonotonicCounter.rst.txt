@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1MonotonicCounter:
+
+Template Class MonotonicCounter
+===============================
+
+- Defined in :ref:`file_include_embers_primitives_counters.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::MonotonicCounter
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,54 @@
+
+.. _file_include_embers_amdgpu_realtime.h:
+
+File realtime.h
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_amdgpu>` (``include/embers/amdgpu``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/amdgpu/realtime.h``)
+-------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_amdgpu_realtime.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdint``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__amdgpu`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768`
+

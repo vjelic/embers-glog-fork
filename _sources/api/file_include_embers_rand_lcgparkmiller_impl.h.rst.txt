@@ -1,0 +1,49 @@
+
+.. _file_include_embers_rand_lcgparkmiller_impl.h:
+
+File lcgparkmiller_impl.h
+=========================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_rand>` (``include/embers/rand``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/rand/lcgparkmiller_impl.h``)
+---------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_rand_lcgparkmiller_impl.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdint``
+
+- ``hip/hip_runtime.h``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__rand`
+

@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1GridBarrier:
+
+Class GridBarrier
+=================
+
+- Defined in :ref:`file_include_embers_primitives_grid_barrier.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::GridBarrier
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

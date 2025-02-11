@@ -1,0 +1,76 @@
+
+.. _file_include_embers_atomic.h:
+
+File atomic.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/atomic.h``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_atomic.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``atomic`` (:ref:`file_include_embers_atomic.h`)
+
+- ``embers/memory/memory_model.h`` (:ref:`file_include_embers_memory_memory_model.h`)
+
+- ``hip/hip_runtime.h``
+
+- ``type_traits``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_barrier.h`
+
+- :ref:`file_include_embers_primitives_counters.h`
+
+- :ref:`file_include_embers_primitives_grid_barrier.h`
+
+- :ref:`file_include_embers_primitives_locking_queue.h`
+
+- :ref:`file_include_embers_primitives_nonlocking_queue.h`
+
+- :ref:`file_include_embers_primitives_spinlock.h`
+
+- :ref:`file_include_embers_primitives_ticketlock.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1atomic`
+

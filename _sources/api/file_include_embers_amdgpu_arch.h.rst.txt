@@ -1,0 +1,69 @@
+
+.. _file_include_embers_amdgpu_arch.h:
+
+File arch.h
+===========
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_amdgpu>` (``include/embers/amdgpu``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/amdgpu/arch.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_amdgpu_arch.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``hip/hip_runtime.h``
+
+- ``string``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_amdgpu_hwid.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__amdgpu`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1amdgpu_1_1GFXArch`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_arch_8h_1a94dcac5934570867b3bfd382309037d2`
+

@@ -1,0 +1,14 @@
+.. _exhale_variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9:
+
+Variable embers::HAVE_STD_SOURCE_LOCATION
+=========================================
+
+- Defined in :ref:`file_include_embers_helpers_std_source_location.h`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: embers::HAVE_STD_SOURCE_LOCATION
+   :project: embers

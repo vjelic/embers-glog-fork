@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1unique__ptr:
+
+Template Class unique_ptr
+=========================
+
+- Defined in :ref:`file_include_embers_memory_unique_ptr.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::unique_ptr
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

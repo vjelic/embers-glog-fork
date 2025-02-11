@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d:
+
+Function embers::amdgpu::IsMI100
+================================
+
+- Defined in :ref:`file_include_embers_amdgpu_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::amdgpu::IsMI100(ChipID)
+   :project: embers

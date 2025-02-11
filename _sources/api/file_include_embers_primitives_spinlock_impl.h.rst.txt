@@ -1,0 +1,55 @@
+
+.. _file_include_embers_primitives_spinlock_impl.h:
+
+File spinlock_impl.h
+====================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/spinlock_impl.h``)
+----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_spinlock_impl.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/primitives/backoff.h`` (:ref:`file_include_embers_primitives_backoff.h`)
+
+- ``embers/primitives/spinlock.h`` (:ref:`file_include_embers_primitives_spinlock.h`)
+
+- ``thread``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_spinlock.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+

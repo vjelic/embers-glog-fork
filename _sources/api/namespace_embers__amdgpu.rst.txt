@@ -1,0 +1,64 @@
+
+.. _namespace_embers__amdgpu:
+
+Namespace embers::amdgpu
+========================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1amdgpu_1_1GFXArch`
+
+- :ref:`exhale_class_classembers_1_1amdgpu_1_1HwRegIDs`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_arch_8h_1a94dcac5934570867b3bfd382309037d2`
+
+- :ref:`exhale_enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768`
+
+- :ref:`exhale_function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d`
+
+- :ref:`exhale_function_chipid_8h_1a98086793af370aa6b30dbb62722efe60`
+
+- :ref:`exhale_function_chipid_8h_1a50b086e4730f190cea1111d755be4d17`
+
+- :ref:`exhale_function_chipid_8h_1a0b283933392c7bea7359ecd651a30696`
+
+- :ref:`exhale_function_chipid_8h_1a86e4d788e5e02fb49aca0e1a7072c754`
+
+- :ref:`exhale_function_chipid_8h_1a0d87b912748972753258dbac5137e6f3`
+
+- :ref:`exhale_function_chipid_8h_1a6198cbae8f86c1a3a2fc72354d57d56c`
+
+- :ref:`exhale_function_chipid_8h_1a4361f429210b79fa89fc2708add66de5`
+
+- :ref:`exhale_function_chipid_8h_1aa670638c331a3ebb876a8f7b27f4d182`
+
+- :ref:`exhale_function_chipid_8h_1a239fe1e727bad1b937bf1a34e6546f90`
+
+- :ref:`exhale_function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec`
+
+- :ref:`exhale_function_chipid_8h_1ae216e21f8926b53abb64af9941a18d85`
+
+- :ref:`exhale_function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428`

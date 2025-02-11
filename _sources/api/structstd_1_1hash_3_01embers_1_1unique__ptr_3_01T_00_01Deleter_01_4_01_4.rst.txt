@@ -1,0 +1,17 @@
+.. _exhale_struct_structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4:
+
+Template Struct hash< embers::unique_ptr< T, Deleter > >
+========================================================
+
+- Defined in :ref:`file_include_embers_memory_unique_ptr.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: std::hash< embers::unique_ptr< T, Deleter > >
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,61 @@
+
+.. _file_include_embers_memory_hip_detail_memory.h:
+
+File memory.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_memory_hip_detail>` (``include/embers/memory/hip_detail``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/memory/hip_detail/memory.h``)
+----------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_memory_hip_detail_memory.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/memory/unique_ptr.h`` (:ref:`file_include_embers_memory_unique_ptr.h`)
+
+- ``embers/status.h`` (:ref:`file_include_embers_status.h`)
+
+- ``hip/hip_runtime.h``
+
+- ``new``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_memory.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__device`
+
+- :ref:`namespace_embers__host`
+

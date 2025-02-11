@@ -1,0 +1,14 @@
+.. _exhale_enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f:
+
+Enum MemoryScope
+================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: embers::MemoryScope
+   :project: embers

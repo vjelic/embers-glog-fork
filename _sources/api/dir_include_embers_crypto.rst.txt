@@ -1,0 +1,26 @@
+.. _dir_include_embers_crypto:
+
+
+Directory crypto
+================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/crypto``
+
+Subdirectories
+--------------
+
+- :ref:`dir_include_embers_crypto_ethash`
+
+
+Files
+-----
+
+- :ref:`file_include_embers_crypto_helpers.h`
+
+

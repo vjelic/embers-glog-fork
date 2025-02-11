@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1amdgpu_1_1HwRegIDs:
+
+Class HwRegIDs
+==============
+
+- Defined in :ref:`file_include_embers_amdgpu_hwid.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::amdgpu::HwRegIDs
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

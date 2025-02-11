@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1RWLock:
+
+Template Class RWLock
+=====================
+
+- Defined in :ref:`file_include_embers_primitives_rwlock.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::RWLock
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

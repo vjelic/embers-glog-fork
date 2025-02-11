@@ -1,0 +1,14 @@
+.. _exhale_define_std__source__location_8h_1ab43b2ef3bb550cf9543e26646586bf8a:
+
+Define _EMBERS_HAVE_STD_SOURCE_LOCATION
+=======================================
+
+- Defined in :ref:`file_include_embers_helpers_std_source_location.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: _EMBERS_HAVE_STD_SOURCE_LOCATION
+   :project: embers

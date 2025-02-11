@@ -1,0 +1,14 @@
+.. _exhale_function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c:
+
+Function embers::memory_scope_as_int
+====================================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::memory_scope_as_int(MemoryScope)
+   :project: embers

@@ -1,0 +1,64 @@
+
+.. _file_include_embers_primitives_counters.h:
+
+File counters.h
+===============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_primitives>` (``include/embers/primitives``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/primitives/counters.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_primitives_counters.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/atomic.h`` (:ref:`file_include_embers_atomic.h`)
+
+- ``embers/primitives/backoff.h`` (:ref:`file_include_embers_primitives_backoff.h`)
+
+- ``thread``
+
+- ``type_traits``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_nonlocking_queue.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1MonotonicCounter`
+

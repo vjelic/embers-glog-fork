@@ -1,0 +1,28 @@
+.. _exhale_class_classembers_1_1NonLockingQueue:
+
+Template Class NonLockingQueue
+==============================
+
+- Defined in :ref:`file_include_embers_primitives_nonlocking_queue.h`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Contents`
+- :ref:`exhale_class_classembers_1_1NonLockingQueue_1_1Entry`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::NonLockingQueue
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

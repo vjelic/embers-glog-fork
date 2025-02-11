@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1amdgpu_1_1GFXArch:
+
+Class GFXArch
+=============
+
+- Defined in :ref:`file_include_embers_amdgpu_arch.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::amdgpu::GFXArch
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

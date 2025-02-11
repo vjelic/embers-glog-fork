@@ -1,0 +1,14 @@
+.. _exhale_function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8:
+
+Template Function embers::AlmostEqualRelative
+=============================================
+
+- Defined in :ref:`file_include_embers_helpers_almost_equal_impl.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::AlmostEqualRelative(T, T)
+   :project: embers

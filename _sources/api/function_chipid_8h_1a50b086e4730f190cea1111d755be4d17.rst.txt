@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a50b086e4730f190cea1111d755be4d17:
+
+Function embers::amdgpu::IsMI300
+================================
+
+- Defined in :ref:`file_include_embers_amdgpu_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::amdgpu::IsMI300(ChipID)
+   :project: embers

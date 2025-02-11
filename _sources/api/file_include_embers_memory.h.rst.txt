@@ -1,0 +1,56 @@
+
+.. _file_include_embers_memory.h:
+
+File memory.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/memory.h``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_memory.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``embers/memory/unique_ptr.h`` (:ref:`file_include_embers_memory_unique_ptr.h`)
+
+- ``memory/hip_detail/memory.h`` (:ref:`file_include_embers_memory_hip_detail_memory.h`)
+
+- ``memory/memory_model.h`` (:ref:`file_include_embers_memory_memory_model.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_primitives_grid_barrier.h`
+
+- :ref:`file_include_embers_primitives_grid_barrier_impl.h`
+
+- :ref:`file_include_embers_primitives_locking_queue.h`
+
+- :ref:`file_include_embers_primitives_locking_queue_impl.h`
+
+- :ref:`file_include_embers_primitives_nonlocking_queue.h`
+
+
+

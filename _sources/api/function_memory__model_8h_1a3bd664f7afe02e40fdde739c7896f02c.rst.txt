@@ -1,0 +1,14 @@
+.. _exhale_function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c:
+
+Template Function embers::MemoryScopeToChar
+===========================================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::MemoryScopeToChar()
+   :project: embers

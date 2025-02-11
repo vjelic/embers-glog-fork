@@ -1,0 +1,14 @@
+.. _exhale_function_unique__ptr_8h_1a388996948643e647c222cf9d5a80e938:
+
+Template Function std::swap
+===========================
+
+- Defined in :ref:`file_include_embers_memory_unique_ptr.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: std::swap(embers::unique_ptr<T, D>&, embers::unique_ptr<T, D>&)
+   :project: embers

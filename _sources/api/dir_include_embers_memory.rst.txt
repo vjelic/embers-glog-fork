@@ -1,0 +1,27 @@
+.. _dir_include_embers_memory:
+
+
+Directory memory
+================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/memory``
+
+Subdirectories
+--------------
+
+- :ref:`dir_include_embers_memory_hip_detail`
+
+
+Files
+-----
+
+- :ref:`file_include_embers_memory_memory_model.h`
+- :ref:`file_include_embers_memory_unique_ptr.h`
+
+

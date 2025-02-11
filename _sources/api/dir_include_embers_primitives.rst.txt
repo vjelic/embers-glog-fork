@@ -1,0 +1,34 @@
+.. _dir_include_embers_primitives:
+
+
+Directory primitives
+====================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/primitives``
+
+
+Files
+-----
+
+- :ref:`file_include_embers_primitives_backoff.h`
+- :ref:`file_include_embers_primitives_barrier.h`
+- :ref:`file_include_embers_primitives_counters.h`
+- :ref:`file_include_embers_primitives_grid_barrier.h`
+- :ref:`file_include_embers_primitives_grid_barrier_impl.h`
+- :ref:`file_include_embers_primitives_locking_queue.h`
+- :ref:`file_include_embers_primitives_locking_queue_impl.h`
+- :ref:`file_include_embers_primitives_nonlocking_queue.h`
+- :ref:`file_include_embers_primitives_nonlocking_queue_impl.h`
+- :ref:`file_include_embers_primitives_rwlock.h`
+- :ref:`file_include_embers_primitives_spinlock.h`
+- :ref:`file_include_embers_primitives_spinlock_impl.h`
+- :ref:`file_include_embers_primitives_ticketlock.h`
+- :ref:`file_include_embers_primitives_ticketlock_impl.h`
+
+

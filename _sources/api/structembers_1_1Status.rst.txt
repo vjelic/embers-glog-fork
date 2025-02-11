@@ -1,0 +1,17 @@
+.. _exhale_struct_structembers_1_1Status:
+
+Struct Status
+=============
+
+- Defined in :ref:`file_include_embers_status.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: embers::Status
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

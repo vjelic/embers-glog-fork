@@ -1,0 +1,14 @@
+.. _exhale_function_rand_8h_1a56b9de419b2050932d195fdde17288d8:
+
+Template Function embers::rand::rand
+====================================
+
+- Defined in :ref:`file_include_embers_rand_rand.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::rand::rand(uint32_t)
+   :project: embers

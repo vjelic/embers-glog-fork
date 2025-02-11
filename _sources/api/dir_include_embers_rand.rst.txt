@@ -1,0 +1,24 @@
+.. _dir_include_embers_rand:
+
+
+Directory rand
+==============
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/rand``
+
+
+Files
+-----
+
+- :ref:`file_include_embers_rand_fill_buffer_rand.h`
+- :ref:`file_include_embers_rand_lcgparkmiller.h`
+- :ref:`file_include_embers_rand_lcgparkmiller_impl.h`
+- :ref:`file_include_embers_rand_rand.h`
+
+

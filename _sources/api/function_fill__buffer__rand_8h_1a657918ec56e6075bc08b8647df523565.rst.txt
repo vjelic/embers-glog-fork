@@ -1,0 +1,14 @@
+.. _exhale_function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565:
+
+Template Function embers::rand::FillBufferRandom(T \*, size_t, xorshift128p_state \*, T, T)
+===========================================================================================
+
+- Defined in :ref:`file_include_embers_rand_fill_buffer_rand.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::rand::FillBufferRandom(T *, size_t, xorshift128p_state *, T, T)
+   :project: embers

@@ -1,0 +1,23 @@
+.. _exhale_class_classembers_1_1LockingQueue1P1C_1_1Contents:
+
+Class LockingQueue1P1C::Contents
+================================
+
+- Defined in :ref:`file_include_embers_primitives_locking_queue.h`
+
+
+Nested Relationships
+--------------------
+
+This class is a nested type of :ref:`exhale_class_classembers_1_1LockingQueue1P1C`.
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::LockingQueue1P1C::Contents
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

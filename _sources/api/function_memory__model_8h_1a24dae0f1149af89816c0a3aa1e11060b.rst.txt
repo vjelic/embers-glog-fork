@@ -1,0 +1,14 @@
+.. _exhale_function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b:
+
+Specialized Template Function embers::MemoryScopeToChar< MemoryScope::AGENT >
+=============================================================================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::MemoryScopeToChar< MemoryScope::AGENT >()
+   :project: embers

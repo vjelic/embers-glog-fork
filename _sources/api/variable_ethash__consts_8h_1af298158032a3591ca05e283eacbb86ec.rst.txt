@@ -1,0 +1,14 @@
+.. _exhale_variable_ethash__consts_8h_1af298158032a3591ca05e283eacbb86ec:
+
+Variable embers::crypto::ethash::EthashDAGSizes
+===============================================
+
+- Defined in :ref:`file_include_embers_crypto_ethash_ethash_consts.h`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: embers::crypto::ethash::EthashDAGSizes
+   :project: embers

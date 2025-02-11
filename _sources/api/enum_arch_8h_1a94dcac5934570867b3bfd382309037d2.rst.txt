@@ -1,0 +1,14 @@
+.. _exhale_enum_arch_8h_1a94dcac5934570867b3bfd382309037d2:
+
+Enum ArchFamily
+===============
+
+- Defined in :ref:`file_include_embers_amdgpu_arch.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: embers::amdgpu::ArchFamily
+   :project: embers

@@ -1,0 +1,17 @@
+.. _exhale_class_classembers_1_1atomic:
+
+Template Class atomic
+=====================
+
+- Defined in :ref:`file_include_embers_atomic.h`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: embers::atomic
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

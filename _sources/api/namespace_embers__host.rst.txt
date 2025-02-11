@@ -1,0 +1,13 @@
+
+.. _namespace_embers__host:
+
+Namespace embers::host
+======================
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+
+

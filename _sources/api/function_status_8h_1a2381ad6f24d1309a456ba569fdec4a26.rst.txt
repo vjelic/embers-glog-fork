@@ -1,0 +1,14 @@
+.. _exhale_function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26:
+
+Function embers::StatusFromHipError
+===================================
+
+- Defined in :ref:`file_include_embers_status.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::StatusFromHipError(hipError_t, const std_source_location)
+   :project: embers

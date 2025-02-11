@@ -1,0 +1,14 @@
+.. _exhale_function_backoff_8h_1a508b1091bace83dd65e362243d042266:
+
+Function embers::backoff
+========================
+
+- Defined in :ref:`file_include_embers_primitives_backoff.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::backoff()
+   :project: embers

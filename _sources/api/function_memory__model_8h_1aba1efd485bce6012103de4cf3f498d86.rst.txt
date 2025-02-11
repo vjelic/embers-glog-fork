@@ -1,0 +1,14 @@
+.. _exhale_function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86:
+
+Specialized Template Function embers::MemoryScopeToChar< MemoryScope::WAVEFRONT >
+=================================================================================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::MemoryScopeToChar< MemoryScope::WAVEFRONT >()
+   :project: embers

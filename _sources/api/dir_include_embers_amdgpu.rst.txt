@@ -1,0 +1,24 @@
+.. _dir_include_embers_amdgpu:
+
+
+Directory amdgpu
+================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers>` (``include/embers``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers/amdgpu``
+
+
+Files
+-----
+
+- :ref:`file_include_embers_amdgpu_arch.h`
+- :ref:`file_include_embers_amdgpu_chipid.h`
+- :ref:`file_include_embers_amdgpu_hwid.h`
+- :ref:`file_include_embers_amdgpu_realtime.h`
+
+

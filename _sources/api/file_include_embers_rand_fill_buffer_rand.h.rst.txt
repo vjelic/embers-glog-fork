@@ -1,0 +1,62 @@
+
+.. _file_include_embers_rand_fill_buffer_rand.h:
+
+File fill_buffer_rand.h
+=======================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_rand>` (``include/embers/rand``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/rand/fill_buffer_rand.h``)
+-------------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_rand_fill_buffer_rand.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``cstdint``
+
+- ``embers/rand/xorshift.cuh``
+
+- ``hip/hip_runtime.h``
+
+- ``limits``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__rand`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_fill__buffer__rand_8h_1aa3729496f8bd10d70b8712d320981526`
+
+- :ref:`exhale_function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565`
+

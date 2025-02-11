@@ -1,0 +1,87 @@
+
+.. _file_include_embers_memory_memory_model.h:
+
+File memory_model.h
+===================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_memory>` (``include/embers/memory``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/memory/memory_model.h``)
+-----------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_memory_memory_model.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``atomic`` (:ref:`file_include_embers_atomic.h`)
+
+- ``exception``
+
+- ``hip/hip_runtime.h``
+
+- ``stdexcept``
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_embers_atomic.h`
+
+- :ref:`file_include_embers_memory.h`
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+
+Enums
+-----
+
+
+- :ref:`exhale_enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f`
+
+
+Functions
+---------
+
+
+- :ref:`exhale_function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c`
+
+- :ref:`exhale_function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c`
+
+- :ref:`exhale_function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b`
+
+- :ref:`exhale_function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce`
+
+- :ref:`exhale_function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff`
+
+- :ref:`exhale_function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86`
+
+- :ref:`exhale_function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a`
+
+- :ref:`exhale_function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe`
+

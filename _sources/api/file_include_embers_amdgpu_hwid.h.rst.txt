@@ -1,0 +1,70 @@
+
+.. _file_include_embers_amdgpu_hwid.h:
+
+File hwid.h
+===========
+
+|exhale_lsh| :ref:`Parent directory <dir_include_embers_amdgpu>` (``include/embers/amdgpu``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+.. contents:: Contents
+   :local:
+   :backlinks: none
+
+Definition (``include/embers/amdgpu/hwid.h``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_embers_amdgpu_hwid.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``array``
+
+- ``cstdint``
+
+- ``embers/amdgpu/arch.h`` (:ref:`file_include_embers_amdgpu_arch.h`)
+
+- ``embers/helpers/bit_helpers.cuh``
+
+- ``embers/status.h`` (:ref:`file_include_embers_status.h`)
+
+- ``hip/hip_runtime.h``
+
+- ``iomanip``
+
+- ``sstream``
+
+- ``string``
+
+
+
+
+
+
+Namespaces
+----------
+
+
+- :ref:`namespace_embers`
+
+- :ref:`namespace_embers__amdgpu`
+
+
+Classes
+-------
+
+
+- :ref:`exhale_class_classembers_1_1amdgpu_1_1HwRegIDs`
+

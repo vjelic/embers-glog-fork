@@ -1,0 +1,14 @@
+.. _exhale_function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec:
+
+Function embers::amdgpu::IsNAVI21
+=================================
+
+- Defined in :ref:`file_include_embers_amdgpu_chipid.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::amdgpu::IsNAVI21(ChipID)
+   :project: embers

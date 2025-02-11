@@ -1,0 +1,33 @@
+.. _dir_include_embers:
+
+
+Directory embers
+================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include>` (``include``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+*Directory path:* ``include/embers``
+
+Subdirectories
+--------------
+
+- :ref:`dir_include_embers_amdgpu`
+- :ref:`dir_include_embers_crypto`
+- :ref:`dir_include_embers_helpers`
+- :ref:`dir_include_embers_memory`
+- :ref:`dir_include_embers_primitives`
+- :ref:`dir_include_embers_rand`
+
+
+Files
+-----
+
+- :ref:`file_include_embers_atomic.h`
+- :ref:`file_include_embers_memory.h`
+- :ref:`file_include_embers_status.h`
+
+

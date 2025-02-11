@@ -1,0 +1,14 @@
+.. _exhale_function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768:
+
+Function embers::amdgpu::get_realtime
+=====================================
+
+- Defined in :ref:`file_include_embers_amdgpu_realtime.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::amdgpu::get_realtime(uint64_t *)
+   :project: embers

@@ -1,0 +1,14 @@
+.. _exhale_function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe:
+
+Function embers::std_memory_order_to_int
+========================================
+
+- Defined in :ref:`file_include_embers_memory_memory_model.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: embers::std_memory_order_to_int(std::memory_order)
+   :project: embers

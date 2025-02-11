@@ -1,0 +1,23 @@
+.. _exhale_struct_structembers_1_1Xlator_1_1Translation:
+
+Struct Xlator::Translation
+==========================
+
+- Defined in :ref:`file_include_embers_helpers_xlator.h`
+
+
+Nested Relationships
+--------------------
+
+This struct is a nested type of :ref:`exhale_class_classembers_1_1Xlator`.
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: embers::Xlator::Translation
+   :project: embers
+   :members:
+   :protected-members:
+   :undoc-members:

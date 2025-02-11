@@ -1,0 +1,14 @@
+.. _exhale_variable_helpers_8h_1a3012edd3d76f513c96da557e549f44dd:
+
+Variable embers::crypto::HASH256_H4_NUM_INDEXES
+===============================================
+
+- Defined in :ref:`file_include_embers_crypto_helpers.h`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: embers::crypto::HASH256_H4_NUM_INDEXES
+   :project: embers

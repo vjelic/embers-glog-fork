@@ -1,0 +1,1734 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embers API &mdash; embers  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/collapsible-lists/css/tree_view.css?v=a885cde7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/collapsible-lists/js/CollapsibleLists.compressed.js?v=73120307"></script>
+      <script src="../_static/collapsible-lists/js/apply-collapsible-lists.js?v=660e4f45"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Namespace embers" href="namespace_embers.html" />
+    <link rel="prev" title="Welcome to Embers’s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            embers
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Embers API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#class-hierarchy">Class Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-hierarchy">File Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#full-api">Full API</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#namespaces">Namespaces</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers.html">Namespace embers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__amdgpu.html">Namespace embers::amdgpu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__crypto.html">Namespace embers::crypto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__crypto__ethash.html">Namespace embers::crypto::ethash</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__device.html">Namespace embers::device</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__host.html">Namespace embers::host</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_embers__rand.html">Namespace embers::rand</a></li>
+<li class="toctree-l4"><a class="reference internal" href="namespace_std.html">Namespace std</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#classes-and-structs">Classes and Structs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if.html">Template Struct _Unique_if</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html">Template Struct _Unique_if&lt; T[] &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html">Template Struct _Unique_if&lt; T[N] &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html">Struct hash256_t</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html">Struct Status</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html">Struct Xlator::Translation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html">Template Struct hash&lt; embers::unique_ptr&lt; T, Deleter &gt; &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html">Class GFXArch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html">Class HwRegIDs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html">Template Class atomic</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Barrier.html">Template Class Barrier</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html">Class GridBarrier</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html">Template Class LockingQueue1P1C</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C_1_1Contents.html">Class LockingQueue1P1C::Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html">Template Class MonotonicCounter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html">Template Class NonLockingQueue</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Contents.html">Class NonLockingQueue::Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html">Class NonLockingQueue::Entry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html">Template Class RWLock</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html">Template Class SpinLock</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1StatusError.html">Class StatusError</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html">Template Class TicketLock</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html">Template Class unique_ptr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html">Template Class unique_ptr&lt; T[], D &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html">Template Class ValueOrError</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html">Template Class ValueOrError&lt; T &amp; &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html">Class Xlator</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#enums">Enums</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html">Enum ArchFamily</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html">Enum ChipID</a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html">Enum MemoryScope</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#unions">Unions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html">Union Xlator::pagemap_entry</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="function_almost__equal_8h_1adc554b7043f87c7142695791be565b86.html">Template Function embers::AlmostEqualAbsolute</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8.html">Template Function embers::AlmostEqualRelative</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768.html">Function embers::amdgpu::get_realtime</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d.html">Function embers::amdgpu::IsMI100</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a98086793af370aa6b30dbb62722efe60.html">Function embers::amdgpu::IsMI200</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a50b086e4730f190cea1111d755be4d17.html">Function embers::amdgpu::IsMI300</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a0b283933392c7bea7359ecd651a30696.html">Function embers::amdgpu::IsMI300A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a86e4d788e5e02fb49aca0e1a7072c754.html">Function embers::amdgpu::IsMI300X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a0d87b912748972753258dbac5137e6f3.html">Function embers::amdgpu::IsMI300XHF</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a6198cbae8f86c1a3a2fc72354d57d56c.html">Function embers::amdgpu::IsMI308X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a4361f429210b79fa89fc2708add66de5.html">Function embers::amdgpu::IsMI325X</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1aa670638c331a3ebb876a8f7b27f4d182.html">Function embers::amdgpu::IsMI3XX</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a239fe1e727bad1b937bf1a34e6546f90.html">Function embers::amdgpu::IsNAVI10</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec.html">Function embers::amdgpu::IsNAVI21</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1ae216e21f8926b53abb64af9941a18d85.html">Function embers::amdgpu::IsNAVI31</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428.html">Function embers::amdgpu::IsVEGA20</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_backoff_8h_1a508b1091bace83dd65e362243d042266.html">Function embers::backoff</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c.html">Function embers::memory_scope_as_int</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c.html">Template Function embers::MemoryScopeToChar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::AGENT &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::SINGLE_THREAD &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::SYSTEM &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::WAVEFRONT &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::WORKGROUP &gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a3b5a557213445cfe1ebd92b179cb94df.html">Template Function embers::operator&lt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a876207dc4fc483b4c667990a9b8e6098.html">Template Function embers::operator&lt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1acf07d2d44f917a03547cc8f4f2455773.html">Template Function embers::operator&lt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1afa92a3cd98af2b269e0bce8f33438dc1.html">Template Function embers::operator&lt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a5bf89f6f2c997ff4a805844c088e23de.html">Template Function embers::operator&lt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1aeb9d61652c09be64c34e63212149e6df.html">Template Function embers::operator&lt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1aabe098d9648b6decfbee4529bf4f6a24.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1abfeb1a8bd074e424589eed79baacff2e.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a6aba1ec9b372470c2a808b654a74f48c.html">Template Function embers::operator&lt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a05d93b6ae4a20294972277de664b10de.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1af2d6ba0e24e767430c3c74879f1e0b48.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1aca5261e7d558cd4f454838adbe33b24d.html">Template Function embers::operator&lt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1ad2e7027352499570ac0fedfcb2b39786.html">Template Function embers::operator==(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a3f5e4c85288f43a641f711df331bb887.html">Template Function embers::operator==(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a4e2ce67beeadeec3cda42a62f22c7537.html">Template Function embers::operator==(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a57b3ac5aec6aa5b6636abf3f32a712b2.html">Template Function embers::operator==(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1abd7ba587e86f5828458d79fae8a61e39.html">Template Function embers::operator&gt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1af0aac460500a85e1e6490ea745d3fd41.html">Template Function embers::operator&gt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a63833f6659853df77136340dd991f874.html">Template Function embers::operator&gt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a9de1f51c9b89ea4ba7523332eb03ad9c.html">Template Function embers::operator&gt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a7a926827181a89acb96059c9c72919fa.html">Template Function embers::operator&gt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a5d29e606b8ce738638cbb124206aa734.html">Template Function embers::operator&gt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a0545e027ee08a730b11d8d5caee3468f.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a81f4ded0691dcb7594cb435668836cc0.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a1a3a4c5e1cc71c342a24256bd61c06ef.html">Template Function embers::operator&gt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a21ccd087fff05fa3eb4a818c60ac9f5e.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a132d0719bdc10e0f924bb8b2a3356b5a.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a08574bb6a37f092f38b65f94c109ab9d.html">Template Function embers::operator&gt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_fill__buffer__rand_8h_1aa3729496f8bd10d70b8712d320981526.html">Template Function embers::rand::FillBufferRandom(T *, size_t, xorshift128p_state *, T, T)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565.html">Template Function embers::rand::FillBufferRandom(T *, size_t, xorshift128p_state *, T, T)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d.html">Function embers::rand::lcg_parkmiller</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_rand_8h_1a56b9de419b2050932d195fdde17288d8.html">Template Function embers::rand::rand</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26.html">Function embers::StatusFromHipError</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe.html">Function embers::std_memory_order_to_int</a></li>
+<li class="toctree-l4"><a class="reference internal" href="function_unique__ptr_8h_1a388996948643e647c222cf9d5a80e938.html">Template Function std::swap</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#variables">Variables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="variable_ethash__consts_8h_1a1b6630776122ecff6bd4dd9daed27904.html">Variable embers::crypto::ethash::EthashCacheSizes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_ethash__consts_8h_1af298158032a3591ca05e283eacbb86ec.html">Variable embers::crypto::ethash::EthashDAGSizes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_helpers_8h_1a993483bb9af8a24fad6d0554039b0748.html">Variable embers::crypto::HASH256_H1_NUM_INDEXES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_helpers_8h_1a9a4ef85e65a01ec3e95704fdd5ee107e.html">Variable embers::crypto::HASH256_H2_NUM_INDEXES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_helpers_8h_1a3012edd3d76f513c96da557e549f44dd.html">Variable embers::crypto::HASH256_H4_NUM_INDEXES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_helpers_8h_1a3b7ba89927c9068a5a1bcc85c71acc73.html">Variable embers::crypto::HASH256_H8_NUM_INDEXES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9.html">Variable embers::HAVE_STD_SOURCE_LOCATION</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#defines">Defines</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="define_std__source__location_8h_1a20cb5df3f88bd07135a416ab670710b2.html">Define _EMBERS_HAVE_STD_EXP_SOURCE_LOCATION</a></li>
+<li class="toctree-l4"><a class="reference internal" href="define_std__source__location_8h_1ab43b2ef3bb550cf9543e26646586bf8a.html">Define _EMBERS_HAVE_STD_SOURCE_LOCATION</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#typedefs">Typedefs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d.html">Typedef embers::std_source_location</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">embers</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Embers API</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/embers_root.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="embers-api">
+<h1>Embers API<a class="headerlink" href="#embers-api" title="Link to this heading"></a></h1>
+<section id="class-hierarchy">
+<h2>Class Hierarchy<a class="headerlink" href="#class-hierarchy" title="Link to this heading"></a></h2>
+<ul class="treeView" id="class-treeView">
+  <li>
+    <ul class="collapsibleList">
+      <li>Namespace <a href="namespace_embers.html#namespace-embers">embers</a><ul><li>Namespace <a href="namespace_embers__amdgpu.html#namespace-embers-amdgpu">embers::amdgpu</a><ul><li>Class <a href="classembers_1_1amdgpu_1_1GFXArch.html#exhale-class-classembers-1-1amdgpu-1-1GFXArch">GFXArch</a></li><li>Class <a href="classembers_1_1amdgpu_1_1HwRegIDs.html#exhale-class-classembers-1-1amdgpu-1-1HwRegIDs">HwRegIDs</a></li><li>Enum <a href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#exhale-enum-arch-8h-1a94dcac5934570867b3bfd382309037d2">ArchFamily</a></li><li class="lastChild">Enum <a href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#exhale-enum-chipid-8h-1abe5c8d4aa6ff6c31c62a4bc1627c9adc">ChipID</a></li></ul></li><li>Namespace <a href="namespace_embers__crypto.html#namespace-embers-crypto">embers::crypto</a><ul><li class="lastChild">Struct <a href="structembers_1_1crypto_1_1hash256__t.html#exhale-struct-structembers-1-1crypto-1-1hash256-t">hash256_t</a></li></ul></li><li>Template Struct <a href="structembers_1_1__Unique__if.html#exhale-struct-structembers-1-1-Unique-if">_Unique_if</a></li><li>Template Struct <a href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html#exhale-struct-structembers-1-1-Unique-if-3-01T-0f-0e-4">_Unique_if&lt; T[] &gt;</a></li><li>Template Struct <a href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html#exhale-struct-structembers-1-1-Unique-if-3-01T-0fN-0e-4">_Unique_if&lt; T[N] &gt;</a></li><li>Struct <a href="structembers_1_1Status.html#exhale-struct-structembers-1-1Status">Status</a></li><li>Template Class <a href="classembers_1_1atomic.html#exhale-class-classembers-1-1atomic">atomic</a></li><li>Template Class <a href="classembers_1_1Barrier.html#exhale-class-classembers-1-1Barrier">Barrier</a></li><li>Class <a href="classembers_1_1GridBarrier.html#exhale-class-classembers-1-1GridBarrier">GridBarrier</a></li><li>Template Class <a href="classembers_1_1LockingQueue1P1C.html#exhale-class-classembers-1-1LockingQueue1P1C">LockingQueue1P1C</a><ul><li class="lastChild">Class <a href="classembers_1_1LockingQueue1P1C_1_1Contents.html#exhale-class-classembers-1-1LockingQueue1P1C-1-1Contents">LockingQueue1P1C::Contents</a></li></ul></li><li>Template Class <a href="classembers_1_1MonotonicCounter.html#exhale-class-classembers-1-1MonotonicCounter">MonotonicCounter</a></li><li>Template Class <a href="classembers_1_1NonLockingQueue.html#exhale-class-classembers-1-1NonLockingQueue">NonLockingQueue</a><ul><li>Class <a href="classembers_1_1NonLockingQueue_1_1Contents.html#exhale-class-classembers-1-1NonLockingQueue-1-1Contents">NonLockingQueue::Contents</a></li><li class="lastChild">Class <a href="classembers_1_1NonLockingQueue_1_1Entry.html#exhale-class-classembers-1-1NonLockingQueue-1-1Entry">NonLockingQueue::Entry</a></li></ul></li><li>Template Class <a href="classembers_1_1RWLock.html#exhale-class-classembers-1-1RWLock">RWLock</a></li><li>Template Class <a href="classembers_1_1SpinLock.html#exhale-class-classembers-1-1SpinLock">SpinLock</a></li><li>Class <a href="classembers_1_1StatusError.html#exhale-class-classembers-1-1StatusError">StatusError</a></li><li>Template Class <a href="classembers_1_1TicketLock.html#exhale-class-classembers-1-1TicketLock">TicketLock</a></li><li>Template Class <a href="classembers_1_1unique__ptr.html#exhale-class-classembers-1-1unique-ptr">unique_ptr</a></li><li>Template Class <a href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#exhale-class-classembers-1-1unique-ptr-3-01T-0f-0e-00-01D-01-4">unique_ptr&lt; T[], D &gt;</a></li><li>Template Class <a href="classembers_1_1ValueOrError.html#exhale-class-classembers-1-1ValueOrError">ValueOrError</a></li><li>Template Class <a href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#exhale-class-classembers-1-1ValueOrError-3-01T-01-6-01-4">ValueOrError&lt; T &amp; &gt;</a></li><li>Class <a href="classembers_1_1Xlator.html#exhale-class-classembers-1-1Xlator">Xlator</a><ul><li>Struct <a href="structembers_1_1Xlator_1_1Translation.html#exhale-struct-structembers-1-1Xlator-1-1Translation">Xlator::Translation</a></li><li class="lastChild">Union <a href="unionembers_1_1Xlator_1_1pagemap__entry.html#exhale-union-unionembers-1-1Xlator-1-1pagemap-entry">Xlator::pagemap_entry</a></li></ul></li><li class="lastChild">Enum <a href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#exhale-enum-memory-model-8h-1ab6283ed35ab7cd3fe43d8c4796652b7f">MemoryScope</a></li></ul></li><li class="lastChild">Namespace <a href="namespace_std.html#namespace-std">std</a><ul><li class="lastChild">Template Struct <a href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html#exhale-struct-structstd-1-1hash-3-01embers-1-1unique-ptr-3-01T-00-01Deleter-01-4-01-4">hash&lt; embers::unique_ptr&lt; T, Deleter &gt; &gt;</a></li></ul></li>
+    </ul>
+  </li><!-- only tree view element -->
+</ul><!-- /treeView class-treeView --></section>
+<section id="file-hierarchy">
+<h2>File Hierarchy<a class="headerlink" href="#file-hierarchy" title="Link to this heading"></a></h2>
+<ul class="treeView" id="file-treeView">
+  <li>
+    <ul class="collapsibleList">
+      <li class="lastChild">Directory <a href="dir_include.html#dir-include">include</a><ul><li class="lastChild">Directory <a href="dir_include_embers.html#dir-include-embers">embers</a><ul><li>Directory <a href="dir_include_embers_amdgpu.html#dir-include-embers-amdgpu">amdgpu</a><ul><li>File <a href="file_include_embers_amdgpu_arch.h.html#file-include-embers-amdgpu-arch.h">arch.h</a></li><li>File <a href="file_include_embers_amdgpu_chipid.h.html#file-include-embers-amdgpu-chipid.h">chipid.h</a></li><li>File <a href="file_include_embers_amdgpu_hwid.h.html#file-include-embers-amdgpu-hwid.h">hwid.h</a></li><li class="lastChild">File <a href="file_include_embers_amdgpu_realtime.h.html#file-include-embers-amdgpu-realtime.h">realtime.h</a></li></ul></li><li>Directory <a href="dir_include_embers_crypto.html#dir-include-embers-crypto">crypto</a><ul><li>Directory <a href="dir_include_embers_crypto_ethash.html#dir-include-embers-crypto-ethash">ethash</a><ul><li class="lastChild">File <a href="file_include_embers_crypto_ethash_ethash_consts.h.html#file-include-embers-crypto-ethash-ethash-consts.h">ethash_consts.h</a></li></ul></li><li class="lastChild">File <a href="file_include_embers_crypto_helpers.h.html#file-include-embers-crypto-helpers.h">helpers.h</a></li></ul></li><li>Directory <a href="dir_include_embers_helpers.html#dir-include-embers-helpers">helpers</a><ul><li>File <a href="file_include_embers_helpers_almost_equal.h.html#file-include-embers-helpers-almost-equal.h">almost_equal.h</a></li><li>File <a href="file_include_embers_helpers_almost_equal_impl.h.html#file-include-embers-helpers-almost-equal-impl.h">almost_equal_impl.h</a></li><li>File <a href="file_include_embers_helpers_std_source_location.h.html#file-include-embers-helpers-std-source-location.h">std_source_location.h</a></li><li class="lastChild">File <a href="file_include_embers_helpers_xlator.h.html#file-include-embers-helpers-xlator.h">xlator.h</a></li></ul></li><li>Directory <a href="dir_include_embers_memory.html#dir-include-embers-memory">memory</a><ul><li>Directory <a href="dir_include_embers_memory_hip_detail.html#dir-include-embers-memory-hip-detail">hip_detail</a><ul><li class="lastChild">File <a href="file_include_embers_memory_hip_detail_memory.h.html#file-include-embers-memory-hip-detail-memory.h">memory.h</a></li></ul></li><li>File <a href="file_include_embers_memory_memory_model.h.html#file-include-embers-memory-memory-model.h">memory_model.h</a></li><li class="lastChild">File <a href="file_include_embers_memory_unique_ptr.h.html#file-include-embers-memory-unique-ptr.h">unique_ptr.h</a></li></ul></li><li>Directory <a href="dir_include_embers_primitives.html#dir-include-embers-primitives">primitives</a><ul><li>File <a href="file_include_embers_primitives_backoff.h.html#file-include-embers-primitives-backoff.h">backoff.h</a></li><li>File <a href="file_include_embers_primitives_barrier.h.html#file-include-embers-primitives-barrier.h">barrier.h</a></li><li>File <a href="file_include_embers_primitives_counters.h.html#file-include-embers-primitives-counters.h">counters.h</a></li><li>File <a href="file_include_embers_primitives_grid_barrier.h.html#file-include-embers-primitives-grid-barrier.h">grid_barrier.h</a></li><li>File <a href="file_include_embers_primitives_grid_barrier_impl.h.html#file-include-embers-primitives-grid-barrier-impl.h">grid_barrier_impl.h</a></li><li>File <a href="file_include_embers_primitives_locking_queue.h.html#file-include-embers-primitives-locking-queue.h">locking_queue.h</a></li><li>File <a href="file_include_embers_primitives_locking_queue_impl.h.html#file-include-embers-primitives-locking-queue-impl.h">locking_queue_impl.h</a></li><li>File <a href="file_include_embers_primitives_nonlocking_queue.h.html#file-include-embers-primitives-nonlocking-queue.h">nonlocking_queue.h</a></li><li>File <a href="file_include_embers_primitives_nonlocking_queue_impl.h.html#file-include-embers-primitives-nonlocking-queue-impl.h">nonlocking_queue_impl.h</a></li><li>File <a href="file_include_embers_primitives_rwlock.h.html#file-include-embers-primitives-rwlock.h">rwlock.h</a></li><li>File <a href="file_include_embers_primitives_spinlock.h.html#file-include-embers-primitives-spinlock.h">spinlock.h</a></li><li>File <a href="file_include_embers_primitives_spinlock_impl.h.html#file-include-embers-primitives-spinlock-impl.h">spinlock_impl.h</a></li><li>File <a href="file_include_embers_primitives_ticketlock.h.html#file-include-embers-primitives-ticketlock.h">ticketlock.h</a></li><li class="lastChild">File <a href="file_include_embers_primitives_ticketlock_impl.h.html#file-include-embers-primitives-ticketlock-impl.h">ticketlock_impl.h</a></li></ul></li><li>Directory <a href="dir_include_embers_rand.html#dir-include-embers-rand">rand</a><ul><li>File <a href="file_include_embers_rand_fill_buffer_rand.h.html#file-include-embers-rand-fill-buffer-rand.h">fill_buffer_rand.h</a></li><li>File <a href="file_include_embers_rand_lcgparkmiller.h.html#file-include-embers-rand-lcgparkmiller.h">lcgparkmiller.h</a></li><li>File <a href="file_include_embers_rand_lcgparkmiller_impl.h.html#file-include-embers-rand-lcgparkmiller-impl.h">lcgparkmiller_impl.h</a></li><li class="lastChild">File <a href="file_include_embers_rand_rand.h.html#file-include-embers-rand-rand.h">rand.h</a></li></ul></li><li>File <a href="file_include_embers_atomic.h.html#file-include-embers-atomic.h">atomic.h</a></li><li>File <a href="file_include_embers_memory.h.html#file-include-embers-memory.h">memory.h</a></li><li class="lastChild">File <a href="file_include_embers_status.h.html#file-include-embers-status.h">status.h</a></li></ul></li></ul></li>
+    </ul>
+  </li><!-- only tree view element -->
+</ul><!-- /treeView file-treeView --></section>
+<section id="full-api">
+<h2>Full API<a class="headerlink" href="#full-api" title="Link to this heading"></a></h2>
+<section id="namespaces">
+<h3>Namespaces<a class="headerlink" href="#namespaces" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers.html">Namespace embers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#enums">Enums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#functions">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#typedefs">Typedefs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#unions">Unions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__amdgpu.html">Namespace embers::amdgpu</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__amdgpu.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__amdgpu.html#enums">Enums</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__amdgpu.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__crypto.html">Namespace embers::crypto</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__crypto.html#namespaces">Namespaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__crypto.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__crypto.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__crypto__ethash.html">Namespace embers::crypto::ethash</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__crypto__ethash.html#variables">Variables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__device.html">Namespace embers::device</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__host.html">Namespace embers::host</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_embers__rand.html">Namespace embers::rand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_embers__rand.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="namespace_std.html">Namespace std</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="namespace_std.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="namespace_std.html#functions">Functions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="classes-and-structs">
+<h3>Classes and Structs<a class="headerlink" href="#classes-and-structs" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1__Unique__if.html">Template Struct _Unique_if</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1__Unique__if.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1__Unique__if.html#_CPPv4I0EN6embers10_Unique_ifE"><code class="docutils literal notranslate"><span class="pre">_Unique_if</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if.html#_CPPv4N6embers10_Unique_if14_Single_objectE"><code class="docutils literal notranslate"><span class="pre">_Unique_if::_Single_object</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html">Template Struct _Unique_if&lt; T[] &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html#_CPPv4I0EN6embers10_Unique_ifIA_1TEE"><code class="docutils literal notranslate"><span class="pre">_Unique_if</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0f_0e_4.html#_CPPv4N6embers10_Unique_ifIA_1TE14_Unknown_boundE"><code class="docutils literal notranslate"><span class="pre">_Unique_if::_Unknown_bound</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html">Template Struct _Unique_if&lt; T[N] &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html#_CPPv4I0_6size_tEN6embers10_Unique_ifIA1N_1TEE"><code class="docutils literal notranslate"><span class="pre">_Unique_if</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1__Unique__if_3_01T_0fN_0e_4.html#_CPPv4N6embers10_Unique_ifIA1N_1TE12_Known_boundE"><code class="docutils literal notranslate"><span class="pre">_Unique_if::_Known_bound</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html">Struct hash256_t</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_tE"><code class="docutils literal notranslate"><span class="pre">hash256_t</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4NK6embers6crypto9hash256_teqERK9hash256_t"><code class="docutils literal notranslate"><span class="pre">hash256_t::operator==()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4NK6embers6crypto9hash256_tneERK9hash256_t"><code class="docutils literal notranslate"><span class="pre">hash256_t::operator!=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4NK6embers6crypto9hash256_teoERK9hash256_t"><code class="docutils literal notranslate"><span class="pre">hash256_t::operator^()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_t2h8E"><code class="docutils literal notranslate"><span class="pre">hash256_t::h8</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_t2h4E"><code class="docutils literal notranslate"><span class="pre">hash256_t::h4</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_t2h2E"><code class="docutils literal notranslate"><span class="pre">hash256_t::h2</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_t2h1E"><code class="docutils literal notranslate"><span class="pre">hash256_t::h1</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1crypto_1_1hash256__t.html#_CPPv4N6embers6crypto9hash256_tUt1_1E"><code class="docutils literal notranslate"><span class="pre">hash256_t::&#64;1</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1Status.html">Struct Status</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1Status.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6StatusE"><code class="docutils literal notranslate"><span class="pre">Status</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4CodeE"><code class="docutils literal notranslate"><span class="pre">Status::Code</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code7SUCCESSE"><code class="docutils literal notranslate"><span class="pre">Status::Code::SUCCESS</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code5ERRORE"><code class="docutils literal notranslate"><span class="pre">Status::Code::ERROR</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code16NO_FREE_RESOURCEE"><code class="docutils literal notranslate"><span class="pre">Status::Code::NO_FREE_RESOURCE</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code12OUT_OF_RANGEE"><code class="docutils literal notranslate"><span class="pre">Status::Code::OUT_OF_RANGE</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code19UNEXPECTED_NULL_PTRE"><code class="docutils literal notranslate"><span class="pre">Status::Code::UNEXPECTED_NULL_PTR</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code15ALIGNMENT_ERRORE"><code class="docutils literal notranslate"><span class="pre">Status::Code::ALIGNMENT_ERROR</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code18ACCESS_NOT_ALLOWEDE"><code class="docutils literal notranslate"><span class="pre">Status::Code::ACCESS_NOT_ALLOWED</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code12ORDERING_ERRE"><code class="docutils literal notranslate"><span class="pre">Status::Code::ORDERING_ERR</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code15GROUP_NOT_VALIDE"><code class="docutils literal notranslate"><span class="pre">Status::Code::GROUP_NOT_VALID</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code8CODE_BUGE"><code class="docutils literal notranslate"><span class="pre">Status::Code::CODE_BUG</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4Code7TIMEOUTE"><code class="docutils literal notranslate"><span class="pre">Status::Code::TIMEOUT</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status6StatusE4CodeNSt6stringEK19std_source_location"><code class="docutils literal notranslate"><span class="pre">Status::Status()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6StatuscvbEv"><code class="docutils literal notranslate"><span class="pre">Status::operator</span> <span class="pre">bool()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6StatuseqERK6Status"><code class="docutils literal notranslate"><span class="pre">Status::operator==()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6StatusneERK6Status"><code class="docutils literal notranslate"><span class="pre">Status::operator!=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6StatuscvNSt6stringEEv"><code class="docutils literal notranslate"><span class="pre">Status::operator</span> <span class="pre">std::string()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6Status7MessageEv"><code class="docutils literal notranslate"><span class="pre">Status::Message()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6Status10StatusCodeEv"><code class="docutils literal notranslate"><span class="pre">Status::StatusCode()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4NK6embers6Status12RaiseIfErrorEv"><code class="docutils literal notranslate"><span class="pre">Status::RaiseIfError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status5code_E"><code class="docutils literal notranslate"><span class="pre">Status::code_</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Status.html#_CPPv4N6embers6Status4msg_E"><code class="docutils literal notranslate"><span class="pre">Status::msg_</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html">Struct Xlator::Translation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html#nested-relationships">Nested Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html#_CPPv4N6embers6Xlator11TranslationE"><code class="docutils literal notranslate"><span class="pre">Translation</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html#_CPPv4N6embers6Xlator11Translation2paE"><code class="docutils literal notranslate"><span class="pre">Translation::pa</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="structembers_1_1Xlator_1_1Translation.html#_CPPv4N6embers6Xlator11Translation2okE"><code class="docutils literal notranslate"><span class="pre">Translation::ok</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html">Template Struct hash&lt; embers::unique_ptr&lt; T, Deleter &gt; &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html#struct-documentation">Struct Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html#_CPPv4I00ENSt4hashIN6embers10unique_ptrI1T7DeleterEEEE"><code class="docutils literal notranslate"><span class="pre">hash</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="structstd_1_1hash_3_01embers_1_1unique__ptr_3_01T_00_01Deleter_01_4_01_4.html#_CPPv4NKSt4hashIN6embers10unique_ptrI1T7DeleterEEEclEN6embers10unique_ptrI1T7DeleterEE"><code class="docutils literal notranslate"><span class="pre">hash::operator()()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html">Class GFXArch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#_CPPv4N6embers6amdgpu7GFXArchE"><code class="docutils literal notranslate"><span class="pre">GFXArch</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#_CPPv4N6embers6amdgpu7GFXArch7GFXArchEv"><code class="docutils literal notranslate"><span class="pre">GFXArch::GFXArch()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#_CPPv4N6embers6amdgpu7GFXArch7GFXArchE10ArchFamily"><code class="docutils literal notranslate"><span class="pre">GFXArch::GFXArch()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#_CPPv4NK6embers6amdgpu7GFXArchcvNSt6stringEEv"><code class="docutils literal notranslate"><span class="pre">GFXArch::operator</span> <span class="pre">std::string()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1GFXArch.html#_CPPv4NK6embers6amdgpu7GFXArch6FamilyEv"><code class="docutils literal notranslate"><span class="pre">GFXArch::Family()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html">Class HwRegIDs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDsE"><code class="docutils literal notranslate"><span class="pre">HwRegIDs</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs8HwRegIDsEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::HwRegIDs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs8HwRegIDsE10ArchFamilyNSt5arrayI8uint32_t17MAX_NUM_HWID_REGSEE"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::HwRegIDs()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4HwIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::HwID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs5HwID1Ev"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::HwID1()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs5HwID2Ev"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::HwID2()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4NK6embers6amdgpu8HwRegIDs7GfxArchEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::GfxArch()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs6WaveIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::WaveID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs6SimdIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::SimdID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs6PipeIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::PipeID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4CuIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::CuID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4ShIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::ShID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4SeIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::SeID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs6DPRateEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::DPRate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4TgIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::TgID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4VmIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::VmID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs7QueueIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::QueueID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs7StateIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::StateID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4MeIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::MeID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4WgIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::WgID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs13CompatLevelIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::CompatLevelID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs5WgpIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::WgpID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs4SaIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::SaID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs5XccIDEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::XccID()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDscvNSt6stringEEv"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::operator</span> <span class="pre">std::string()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1amdgpu_1_1HwRegIDs.html#_CPPv4N6embers6amdgpu8HwRegIDs17MAX_NUM_HWID_REGSE"><code class="docutils literal notranslate"><span class="pre">HwRegIDs::MAX_NUM_HWID_REGS</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1atomic.html">Template Class atomic</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1atomic.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I0_11MemoryScopeEN6embers6atomicE"><code class="docutils literal notranslate"><span class="pre">atomic</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic6atomicEv"><code class="docutils literal notranslate"><span class="pre">atomic::atomic()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic6atomicE1T"><code class="docutils literal notranslate"><span class="pre">atomic::atomic()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic6atomicERK6atomic"><code class="docutils literal notranslate"><span class="pre">atomic::atomic()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomicaSE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic5storeE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::store()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4NK6embers6atomic4loadENSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::load()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4NK6embers6atomiccv1TEv"><code class="docutils literal notranslate"><span class="pre">atomic::operator</span> <span class="pre">T()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic8exchangeE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::exchange()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic23compare_exchange_strongER1T1TNSt12memory_orderENSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::compare_exchange_strong()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic21compare_exchange_weakER1T1TNSt12memory_orderENSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::compare_exchange_weak()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic9fetch_addE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_add()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I00EN6embers6atomic9fetch_incE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_inc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic9fetch_subE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_sub()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic9fetch_andE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_and()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic8fetch_orE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_or()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomic9fetch_xorE1TNSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">atomic::fetch_xor()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomicpLE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator+=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomicmIE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator-=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomicaNE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator&amp;=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomicoRE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator|=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4N6embers6atomiceOE1T"><code class="docutils literal notranslate"><span class="pre">atomic::operator^=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I00EN6embers6atomicppE1Tv"><code class="docutils literal notranslate"><span class="pre">atomic::operator++()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I00EN6embers6atomicppE1Ti"><code class="docutils literal notranslate"><span class="pre">atomic::operator++()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I00EN6embers6atomicmmE1Tv"><code class="docutils literal notranslate"><span class="pre">atomic::operator--()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1atomic.html#_CPPv4I00EN6embers6atomicmmE1Ti"><code class="docutils literal notranslate"><span class="pre">atomic::operator--()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1Barrier.html">Template Class Barrier</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1Barrier.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1Barrier.html#_CPPv4I_11MemoryScopeEN6embers7BarrierE"><code class="docutils literal notranslate"><span class="pre">Barrier</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Barrier.html#_CPPv4N6embers7Barrier7BarrierE8uint64_t"><code class="docutils literal notranslate"><span class="pre">Barrier::Barrier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Barrier.html#_CPPv4N6embers7Barrier7BarrierERK7Barrier"><code class="docutils literal notranslate"><span class="pre">Barrier::Barrier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Barrier.html#_CPPv4N6embers7BarrierD0Ev"><code class="docutils literal notranslate"><span class="pre">Barrier::~Barrier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Barrier.html#_CPPv4N6embers7Barrier4SyncENSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">Barrier::Sync()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1GridBarrier.html">Class GridBarrier</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1GridBarrier.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrierE"><code class="docutils literal notranslate"><span class="pre">GridBarrier</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrier7CounterE"><code class="docutils literal notranslate"><span class="pre">GridBarrier::Counter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrier11GridBarrierEv"><code class="docutils literal notranslate"><span class="pre">GridBarrier::GridBarrier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrier11GridBarrierE10unique_ptrIA_7CounterE"><code class="docutils literal notranslate"><span class="pre">GridBarrier::GridBarrier()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrier16AllocateCountersEji"><code class="docutils literal notranslate"><span class="pre">GridBarrier::AllocateCounters()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1GridBarrier.html#_CPPv4N6embers11GridBarrier20AllocateCountersHostEj"><code class="docutils literal notranslate"><span class="pre">GridBarrier::AllocateCountersHost()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html">Template Class LockingQueue1P1C</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#nested-relationships">Nested Relationships</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#nested-types">Nested Types</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4I00EN6embers16LockingQueue1P1CE"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C16LockingQueue1P1CEv"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::LockingQueue1P1C()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1CD0Ev"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::~LockingQueue1P1C()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C16LockingQueue1P1CERK16LockingQueue1P1C"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::LockingQueue1P1C()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1CaSERK16LockingQueue1P1C"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C16LockingQueue1P1CERR16LockingQueue1P1C"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::LockingQueue1P1C()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C16LockingQueue1P1CE8Contents"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::LockingQueue1P1C()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C7EnqueueE1T"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::Enqueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C7DequeueEv"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::Dequeue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C15EnqueueMultipleEP1T6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::EnqueueMultiple()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C15DequeueMultipleEP1T6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::DequeueMultiple()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C11EnqueueUpToEP1T6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::EnqueueUpTo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C11DequeueUpToEP1T6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::DequeueUpTo()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C17MakeQueueContentsEij6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::MakeQueueContents()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C21MakeQueueContentsHostEj6size_t"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::MakeQueueContentsHost()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1LockingQueue1P1C.html#_CPPv4N6embers16LockingQueue1P1C8ContentsE"><code class="docutils literal notranslate"><span class="pre">LockingQueue1P1C::Contents</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1LockingQueue1P1C_1_1Contents.html">Class LockingQueue1P1C::Contents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1LockingQueue1P1C_1_1Contents.html#nested-relationships">Nested Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1LockingQueue1P1C_1_1Contents.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1LockingQueue1P1C_1_1Contents.html#_CPPv4N6embers16LockingQueue1P1C8ContentsE"><code class="docutils literal notranslate"><span class="pre">Contents</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1MonotonicCounter.html">Template Class MonotonicCounter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4I_11MemoryScope_NSt12memory_orderE00EN6embers16MonotonicCounterE"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter16counter_int_typeE"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::counter_int_type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter16MonotonicCounterEv"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::MonotonicCounter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounterD0Ev"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::~MonotonicCounter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter16MonotonicCounterER16MonotonicCounter"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::MonotonicCounter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounteraSERK16MonotonicCounter"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter16MonotonicCounterERR16MonotonicCounter"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::MonotonicCounter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4NK6embers16MonotonicCounter5ValueEv"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::Value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter9IncrementE9SIntType_"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::Increment()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4NK6embers16MonotonicCounter5CheckE9SIntType_"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::Check()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter7AppointEP9SIntType_9SIntType_"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::Appoint()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1MonotonicCounter.html#_CPPv4N6embers16MonotonicCounter5ResetEv"><code class="docutils literal notranslate"><span class="pre">MonotonicCounter::Reset()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1NonLockingQueue.html">Template Class NonLockingQueue</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#nested-relationships">Nested Relationships</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#nested-types">Nested Types</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4I00_11MemoryScopeEN6embers15NonLockingQueueE"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue15NonLockingQueueEv"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::NonLockingQueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueueD0Ev"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::~NonLockingQueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue15NonLockingQueueERK15NonLockingQueue"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::NonLockingQueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueueaSERK15NonLockingQueue"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue15NonLockingQueueERR15NonLockingQueue"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::NonLockingQueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue15NonLockingQueueE8Contents"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::NonLockingQueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue7EnqueueE1T"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Enqueue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue7DequeueEv"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Dequeue()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue5ResetEv"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Reset()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue17MakeQueueContentsEijN10MonCntType16counter_int_typeE"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::MakeQueueContents()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue21MakeQueueContentsHostEjN10MonCntType16counter_int_typeE"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::MakeQueueContentsHost()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue8ContentsE"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Contents</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue5EntryE"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Entry</span></code></a><ul>
+<li class="toctree-l5"><a class="reference internal" href="classembers_1_1NonLockingQueue.html#_CPPv4N6embers15NonLockingQueue5Entry5EntryEv"><code class="docutils literal notranslate"><span class="pre">NonLockingQueue::Entry::Entry()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Contents.html">Class NonLockingQueue::Contents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Contents.html#nested-relationships">Nested Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Contents.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Contents.html#_CPPv4N6embers15NonLockingQueue8ContentsE"><code class="docutils literal notranslate"><span class="pre">Contents</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html">Class NonLockingQueue::Entry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html#nested-relationships">Nested Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html#_CPPv4N6embers15NonLockingQueue5EntryE"><code class="docutils literal notranslate"><span class="pre">Entry</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1NonLockingQueue_1_1Entry.html#_CPPv4N6embers15NonLockingQueue5Entry5EntryEv"><code class="docutils literal notranslate"><span class="pre">Entry::Entry()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1RWLock.html">Template Class RWLock</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1RWLock.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4I_11MemoryScopeEN6embers6RWLockE"><code class="docutils literal notranslate"><span class="pre">RWLock</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock6RWLockEv"><code class="docutils literal notranslate"><span class="pre">RWLock::RWLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLockD0Ev"><code class="docutils literal notranslate"><span class="pre">RWLock::~RWLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock6RWLockERK6RWLock"><code class="docutils literal notranslate"><span class="pre">RWLock::RWLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLockaSERK6RWLock"><code class="docutils literal notranslate"><span class="pre">RWLock::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock6RWLockERR6RWLock"><code class="docutils literal notranslate"><span class="pre">RWLock::RWLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock13AcquireSharedEv"><code class="docutils literal notranslate"><span class="pre">RWLock::AcquireShared()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock16TryAcquireSharedEv"><code class="docutils literal notranslate"><span class="pre">RWLock::TryAcquireShared()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock13ReleaseSharedEv"><code class="docutils literal notranslate"><span class="pre">RWLock::ReleaseShared()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock7AcquireEv"><code class="docutils literal notranslate"><span class="pre">RWLock::Acquire()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock10TryAcquireEv"><code class="docutils literal notranslate"><span class="pre">RWLock::TryAcquire()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1RWLock.html#_CPPv4N6embers6RWLock7ReleaseEv"><code class="docutils literal notranslate"><span class="pre">RWLock::Release()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1SpinLock.html">Template Class SpinLock</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1SpinLock.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4I_11MemoryScope00EN6embers8SpinLockE"><code class="docutils literal notranslate"><span class="pre">SpinLock</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock8SpinLockEv"><code class="docutils literal notranslate"><span class="pre">SpinLock::SpinLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLockD0Ev"><code class="docutils literal notranslate"><span class="pre">SpinLock::~SpinLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock8SpinLockERK8SpinLock"><code class="docutils literal notranslate"><span class="pre">SpinLock::SpinLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLockaSERK8SpinLock"><code class="docutils literal notranslate"><span class="pre">SpinLock::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock8SpinLockERR8SpinLock"><code class="docutils literal notranslate"><span class="pre">SpinLock::SpinLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock7AcquireEv"><code class="docutils literal notranslate"><span class="pre">SpinLock::Acquire()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock7ReleaseEv"><code class="docutils literal notranslate"><span class="pre">SpinLock::Release()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1SpinLock.html#_CPPv4N6embers8SpinLock10TryAcquireEv"><code class="docutils literal notranslate"><span class="pre">SpinLock::TryAcquire()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1StatusError.html">Class StatusError</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1StatusError.html#inheritance-relationships">Inheritance Relationships</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1StatusError.html#base-type">Base Type</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1StatusError.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1StatusError.html#_CPPv4N6embers11StatusErrorE"><code class="docutils literal notranslate"><span class="pre">StatusError</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1StatusError.html#_CPPv4N6embers11StatusError11StatusErrorEN6Status4CodeENSt6stringEK19std_source_location"><code class="docutils literal notranslate"><span class="pre">StatusError::StatusError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1StatusError.html#_CPPv4N6embers11StatusError11StatusErrorE6Status"><code class="docutils literal notranslate"><span class="pre">StatusError::StatusError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1StatusError.html#_CPPv4NK6embers11StatusError4whatEv"><code class="docutils literal notranslate"><span class="pre">StatusError::what()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1StatusError.html#_CPPv4NK6embers11StatusError9GetStatusEv"><code class="docutils literal notranslate"><span class="pre">StatusError::GetStatus()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1TicketLock.html">Template Class TicketLock</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1TicketLock.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4I_11MemoryScope_6size_tEN6embers10TicketLockE"><code class="docutils literal notranslate"><span class="pre">TicketLock</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLock10TicketLockEv"><code class="docutils literal notranslate"><span class="pre">TicketLock::TicketLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLockD0Ev"><code class="docutils literal notranslate"><span class="pre">TicketLock::~TicketLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLock10TicketLockERK10TicketLock"><code class="docutils literal notranslate"><span class="pre">TicketLock::TicketLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLockaSERK10TicketLock"><code class="docutils literal notranslate"><span class="pre">TicketLock::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLock10TicketLockERR10TicketLock"><code class="docutils literal notranslate"><span class="pre">TicketLock::TicketLock()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLock7AcquireEv"><code class="docutils literal notranslate"><span class="pre">TicketLock::Acquire()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1TicketLock.html#_CPPv4N6embers10TicketLock7ReleaseEv"><code class="docutils literal notranslate"><span class="pre">TicketLock::Release()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1unique__ptr.html">Template Class unique_ptr</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1unique__ptr.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4I00EN6embers10unique_ptrE"><code class="docutils literal notranslate"><span class="pre">unique_ptr</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr7pointerE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::pointer</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr12element_typeE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::element_type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr12deleter_typeE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::deleter_type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrENSt9nullptr_tE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrE7pointer"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrE7pointer1D"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrERR10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr4swapER10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::swap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr10unique_ptrERRNSt10unique_ptrI1T1DEE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4I00EN6embers10unique_ptr10unique_ptrERR10unique_ptrI1U1EE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptraSERR10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4I00EN6embers10unique_ptraSER10unique_ptrRR10unique_ptrI1U1EE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptraSENSt9nullptr_tE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr7releaseEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::release()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr5resetE7pointer"><code class="docutils literal notranslate"><span class="pre">unique_ptr::reset()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4NK6embers10unique_ptr3getEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4N6embers10unique_ptr11get_deleterEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get_deleter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4NK6embers10unique_ptr11get_deleterEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get_deleter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4NK6embers10unique_ptrcvbEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator</span> <span class="pre">bool()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4NK6embers10unique_ptrmlEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr.html#_CPPv4NK6embers10unique_ptrptEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator-&gt;()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html">Template Class unique_ptr&lt; T[], D &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4I00EN6embers10unique_ptrIA_1T1DEE"><code class="docutils literal notranslate"><span class="pre">unique_ptr</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE7pointerE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::pointer</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE12element_typeE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::element_type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE12deleter_typeE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::deleter_type</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE10unique_ptrEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE10unique_ptrENSt9nullptr_tE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4I0EN6embers10unique_ptrIA_1T1DE10unique_ptrE1U"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE10unique_ptrERR10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4I0EN6embers10unique_ptrIA_1T1DE10unique_ptrE1U1D"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE4swapER10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::swap()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4I00EN6embers10unique_ptrIA_1T1DE10unique_ptrERR10unique_ptrI1U1EE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::unique_ptr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DEixENSt6size_tE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator[]()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DEaSERR10unique_ptr"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4I00EN6embers10unique_ptrIA_1T1DEaSER10unique_ptrRR10unique_ptrI1U1EE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DEaSENSt9nullptr_tE"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator=()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE7releaseEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::release()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE5resetE7pointer"><code class="docutils literal notranslate"><span class="pre">unique_ptr::reset()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DE3getEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4N6embers10unique_ptrIA_1T1DE11get_deleterEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get_deleter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DE11get_deleterEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::get_deleter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DEcvbEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator</span> <span class="pre">bool()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DEmlEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1unique__ptr_3_01T_0f_0e_00_01D_01_4.html#_CPPv4NK6embers10unique_ptrIA_1T1DEptEv"><code class="docutils literal notranslate"><span class="pre">unique_ptr::operator-&gt;()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1ValueOrError.html">Template Class ValueOrError</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1ValueOrError.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4I0EN6embers12ValueOrErrorE"><code class="docutils literal notranslate"><span class="pre">ValueOrError</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4N6embers12ValueOrError12ValueOrErrorE6Status"><code class="docutils literal notranslate"><span class="pre">ValueOrError::ValueOrError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4N6embers12ValueOrError12ValueOrErrorE1T"><code class="docutils literal notranslate"><span class="pre">ValueOrError::ValueOrError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4NK6embers12ValueOrError3ErrEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::Err()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4N6embers12ValueOrErrormlEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4NK6embers12ValueOrErrormlEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError.html#_CPPv4NK6embers12ValueOrErrorcvbEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator</span> <span class="pre">bool()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html">Template Class ValueOrError&lt; T &amp; &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4I0EN6embers12ValueOrErrorIR1TEE"><code class="docutils literal notranslate"><span class="pre">ValueOrError</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4N6embers12ValueOrErrorIR1TE12ValueOrErrorE6Status"><code class="docutils literal notranslate"><span class="pre">ValueOrError::ValueOrError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4N6embers12ValueOrErrorIR1TE12ValueOrErrorER1T"><code class="docutils literal notranslate"><span class="pre">ValueOrError::ValueOrError()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4NK6embers12ValueOrErrorIR1TE3ErrEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::Err()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4N6embers12ValueOrErrorIR1TEmlEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4NK6embers12ValueOrErrorIR1TEmlEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator*()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1ValueOrError_3_01T_01_6_01_4.html#_CPPv4NK6embers12ValueOrErrorIR1TEcvbEv"><code class="docutils literal notranslate"><span class="pre">ValueOrError::operator</span> <span class="pre">bool()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classembers_1_1Xlator.html">Class Xlator</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1Xlator.html#nested-relationships">Nested Relationships</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1Xlator.html#nested-types">Nested Types</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classembers_1_1Xlator.html#class-documentation">Class Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6XlatorE"><code class="docutils literal notranslate"><span class="pre">Xlator</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6Xlator6XlatorEv"><code class="docutils literal notranslate"><span class="pre">Xlator::Xlator()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6XlatorD0Ev"><code class="docutils literal notranslate"><span class="pre">Xlator::~Xlator()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6Xlator10ClearCacheEv"><code class="docutils literal notranslate"><span class="pre">Xlator::ClearCache()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6Xlator12CanTranslateEv"><code class="docutils literal notranslate"><span class="pre">Xlator::CanTranslate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classembers_1_1Xlator.html#_CPPv4N6embers6Xlator6VAtoPAEK9uintptr_tKb"><code class="docutils literal notranslate"><span class="pre">Xlator::VAtoPA()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="enums">
+<h3>Enums<a class="headerlink" href="#enums" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html">Enum ArchFamily</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#enum-documentation">Enum Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamilyE"><code class="docutils literal notranslate"><span class="pre">ArchFamily</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamily7INVALIDE"><code class="docutils literal notranslate"><span class="pre">ArchFamily::INVALID</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamily4GFX9E"><code class="docutils literal notranslate"><span class="pre">ArchFamily::GFX9</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamily10GFX940PlusE"><code class="docutils literal notranslate"><span class="pre">ArchFamily::GFX940Plus</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamily9GFX10PlusE"><code class="docutils literal notranslate"><span class="pre">ArchFamily::GFX10Plus</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_arch_8h_1a94dcac5934570867b3bfd382309037d2.html#_CPPv4N6embers6amdgpu10ArchFamily9GFX11PlusE"><code class="docutils literal notranslate"><span class="pre">ArchFamily::GFX11Plus</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html">Enum ChipID</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#enum-documentation">Enum Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipIDE"><code class="docutils literal notranslate"><span class="pre">ChipID</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI10_W5700XE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI10_W5700X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12NAVI10_W5700E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI10_W5700</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID11NAVI10_5700E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI10_5700</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID11NAVI10_5600E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI10_5600</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID11NAVI21_V620E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_V620</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_W6900XE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_W6900X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12NAVI21_W6800E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_W6800</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_6950XTE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_6950XT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_W6800XE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_W6800X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_V620MXE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_V620MX</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_6900XTE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_6900XT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI21_6800XTE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI21_6800XT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12NAVI31_W7900E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI31_W7900</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13NAVI31_7900XTE"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI31_7900XT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12NAVI31_W7800E"><code class="docutils literal notranslate"><span class="pre">ChipID::NAVI31_W7800</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID15VEGA20_INSTINCTE"><code class="docutils literal notranslate"><span class="pre">ChipID::VEGA20_INSTINCT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID11VEGA20_MI50E"><code class="docutils literal notranslate"><span class="pre">ChipID::VEGA20_MI50</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6VEGA20E"><code class="docutils literal notranslate"><span class="pre">ChipID::VEGA20</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID13VEGA20_VEGAIIE"><code class="docutils literal notranslate"><span class="pre">ChipID::VEGA20_VEGAII</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID10VEGA20_VIIE"><code class="docutils literal notranslate"><span class="pre">ChipID::VEGA20_VII</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID7MI100_0E"><code class="docutils literal notranslate"><span class="pre">ChipID::MI100_0</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID7MI100_1E"><code class="docutils literal notranslate"><span class="pre">ChipID::MI100_1</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID7MI100_2E"><code class="docutils literal notranslate"><span class="pre">ChipID::MI100_2</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID5MI210E"><code class="docutils literal notranslate"><span class="pre">ChipID::MI210</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6MI250XE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI250X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12MI250X_MI250E"><code class="docutils literal notranslate"><span class="pre">ChipID::MI250X_MI250</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6MI300XE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12MI300X_SRIOVE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300X_SRIOV</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID9MI300X_HFE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300X_HF</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID15MI300X_HF_SRIOVE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300X_HF_SRIOV</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6MI300AE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300A</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12MI300A_SRIOVE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI300A_SRIOV</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6MI308XE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI308X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12MI308X_SRIOVE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI308X_SRIOV</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID6MI325XE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI325X</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_chipid_8h_1abe5c8d4aa6ff6c31c62a4bc1627c9adc.html#_CPPv4N6embers6amdgpu6ChipID12MI325X_SRIOVE"><code class="docutils literal notranslate"><span class="pre">ChipID::MI325X_SRIOV</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html">Enum MemoryScope</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#enum-documentation">Enum Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScopeE"><code class="docutils literal notranslate"><span class="pre">MemoryScope</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScope13SINGLE_THREADE"><code class="docutils literal notranslate"><span class="pre">MemoryScope::SINGLE_THREAD</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScope9WAVEFRONTE"><code class="docutils literal notranslate"><span class="pre">MemoryScope::WAVEFRONT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScope9WORKGROUPE"><code class="docutils literal notranslate"><span class="pre">MemoryScope::WORKGROUP</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScope5AGENTE"><code class="docutils literal notranslate"><span class="pre">MemoryScope::AGENT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="enum_memory__model_8h_1ab6283ed35ab7cd3fe43d8c4796652b7f.html#_CPPv4N6embers11MemoryScope6SYSTEME"><code class="docutils literal notranslate"><span class="pre">MemoryScope::SYSTEM</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="unions">
+<h3>Unions<a class="headerlink" href="#unions" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html">Union Xlator::pagemap_entry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#nested-relationships">Nested Relationships</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#union-documentation">Union Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entryE"><code class="docutils literal notranslate"><span class="pre">pagemap_entry</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entry3valE"><code class="docutils literal notranslate"><span class="pre">pagemap_entry::val</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entry3pfnE"><code class="docutils literal notranslate"><span class="pre">pagemap_entry::pfn</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entry10other_bitsE"><code class="docutils literal notranslate"><span class="pre">pagemap_entry::other_bits</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entry7presentE"><code class="docutils literal notranslate"><span class="pre">pagemap_entry::present</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="unionembers_1_1Xlator_1_1pagemap__entry.html#_CPPv4N6embers6Xlator13pagemap_entryUt1_3E"><code class="docutils literal notranslate"><span class="pre">pagemap_entry::&#64;3</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_almost__equal_8h_1adc554b7043f87c7142695791be565b86.html">Template Function embers::AlmostEqualAbsolute</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_almost__equal_8h_1adc554b7043f87c7142695791be565b86.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_almost__equal_8h_1adc554b7043f87c7142695791be565b86.html#_CPPv4I0EN6embers19AlmostEqualAbsoluteEb1T1T"><code class="docutils literal notranslate"><span class="pre">AlmostEqualAbsolute()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8.html">Template Function embers::AlmostEqualRelative</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_almost__equal_8h_1a7e36515fb01ac32cbae24a2ccb8c55f8.html#_CPPv4I0EN6embers19AlmostEqualRelativeEb1T1T"><code class="docutils literal notranslate"><span class="pre">AlmostEqualRelative()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768.html">Function embers::amdgpu::get_realtime</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_realtime_8h_1a42742439ccbcc0b1b5e062fedb9f7768.html#_CPPv4N6embers6amdgpu12get_realtimeEP8uint64_t"><code class="docutils literal notranslate"><span class="pre">get_realtime()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d.html">Function embers::amdgpu::IsMI100</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a948cb5a7c71e61d959917b01d644005d.html#_CPPv4N6embers6amdgpu7IsMI100E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI100()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a98086793af370aa6b30dbb62722efe60.html">Function embers::amdgpu::IsMI200</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a98086793af370aa6b30dbb62722efe60.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a98086793af370aa6b30dbb62722efe60.html#_CPPv4N6embers6amdgpu7IsMI200E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI200()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a50b086e4730f190cea1111d755be4d17.html">Function embers::amdgpu::IsMI300</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a50b086e4730f190cea1111d755be4d17.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a50b086e4730f190cea1111d755be4d17.html#_CPPv4N6embers6amdgpu7IsMI300E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI300()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a0b283933392c7bea7359ecd651a30696.html">Function embers::amdgpu::IsMI300A</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a0b283933392c7bea7359ecd651a30696.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a0b283933392c7bea7359ecd651a30696.html#_CPPv4N6embers6amdgpu8IsMI300AE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI300A()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a86e4d788e5e02fb49aca0e1a7072c754.html">Function embers::amdgpu::IsMI300X</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a86e4d788e5e02fb49aca0e1a7072c754.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a86e4d788e5e02fb49aca0e1a7072c754.html#_CPPv4N6embers6amdgpu8IsMI300XE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI300X()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a0d87b912748972753258dbac5137e6f3.html">Function embers::amdgpu::IsMI300XHF</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a0d87b912748972753258dbac5137e6f3.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a0d87b912748972753258dbac5137e6f3.html#_CPPv4N6embers6amdgpu10IsMI300XHFE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI300XHF()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a6198cbae8f86c1a3a2fc72354d57d56c.html">Function embers::amdgpu::IsMI308X</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a6198cbae8f86c1a3a2fc72354d57d56c.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a6198cbae8f86c1a3a2fc72354d57d56c.html#_CPPv4N6embers6amdgpu8IsMI308XE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI308X()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a4361f429210b79fa89fc2708add66de5.html">Function embers::amdgpu::IsMI325X</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a4361f429210b79fa89fc2708add66de5.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a4361f429210b79fa89fc2708add66de5.html#_CPPv4N6embers6amdgpu8IsMI325XE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI325X()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1aa670638c331a3ebb876a8f7b27f4d182.html">Function embers::amdgpu::IsMI3XX</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1aa670638c331a3ebb876a8f7b27f4d182.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1aa670638c331a3ebb876a8f7b27f4d182.html#_CPPv4N6embers6amdgpu7IsMI3XXE6ChipID"><code class="docutils literal notranslate"><span class="pre">IsMI3XX()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a239fe1e727bad1b937bf1a34e6546f90.html">Function embers::amdgpu::IsNAVI10</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a239fe1e727bad1b937bf1a34e6546f90.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a239fe1e727bad1b937bf1a34e6546f90.html#_CPPv4N6embers6amdgpu8IsNAVI10E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsNAVI10()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec.html">Function embers::amdgpu::IsNAVI21</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a8663cc84226d344fa44fb2dfb495bfec.html#_CPPv4N6embers6amdgpu8IsNAVI21E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsNAVI21()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1ae216e21f8926b53abb64af9941a18d85.html">Function embers::amdgpu::IsNAVI31</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1ae216e21f8926b53abb64af9941a18d85.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1ae216e21f8926b53abb64af9941a18d85.html#_CPPv4N6embers6amdgpu8IsNAVI31E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsNAVI31()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428.html">Function embers::amdgpu::IsVEGA20</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_chipid_8h_1a9747ac1181730d96273b54aa3cb29428.html#_CPPv4N6embers6amdgpu8IsVEGA20E6ChipID"><code class="docutils literal notranslate"><span class="pre">IsVEGA20()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_backoff_8h_1a508b1091bace83dd65e362243d042266.html">Function embers::backoff</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_backoff_8h_1a508b1091bace83dd65e362243d042266.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_backoff_8h_1a508b1091bace83dd65e362243d042266.html#_CPPv4N6embers7backoffEv"><code class="docutils literal notranslate"><span class="pre">backoff()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c.html">Function embers::memory_scope_as_int</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1a2261866d7c628f8b27d1ae21e708751c.html#_CPPv4N6embers19memory_scope_as_intE11MemoryScope"><code class="docutils literal notranslate"><span class="pre">memory_scope_as_int()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c.html">Template Function embers::MemoryScopeToChar</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1a3bd664f7afe02e40fdde739c7896f02c.html#_CPPv4I_11MemoryScopeEN6embers17MemoryScopeToCharEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::AGENT &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1a24dae0f1149af89816c0a3aa1e11060b.html#_CPPv4IEN6embers17MemoryScopeToCharIN11MemoryScope5AGENTEEEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::SINGLE_THREAD &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1a71d9ff169a31893c00e54375da611dce.html#_CPPv4IEN6embers17MemoryScopeToCharIN11MemoryScope13SINGLE_THREADEEEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::SYSTEM &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1a2935487fffe712ccfa3099e666c62fff.html#_CPPv4IEN6embers17MemoryScopeToCharIN11MemoryScope6SYSTEMEEEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::WAVEFRONT &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1aba1efd485bce6012103de4cf3f498d86.html#_CPPv4IEN6embers17MemoryScopeToCharIN11MemoryScope9WAVEFRONTEEEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a.html">Specialized Template Function embers::MemoryScopeToChar&lt; MemoryScope::WORKGROUP &gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1aa179193c4f57e45a707db92f4952f95a.html#_CPPv4IEN6embers17MemoryScopeToCharIN11MemoryScope9WORKGROUPEEEPKcv"><code class="docutils literal notranslate"><span class="pre">MemoryScopeToChar()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a3b5a557213445cfe1ebd92b179cb94df.html">Template Function embers::operator&lt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a3b5a557213445cfe1ebd92b179cb94df.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a876207dc4fc483b4c667990a9b8e6098.html">Template Function embers::operator&lt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a876207dc4fc483b4c667990a9b8e6098.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1acf07d2d44f917a03547cc8f4f2455773.html">Template Function embers::operator&lt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1acf07d2d44f917a03547cc8f4f2455773.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1afa92a3cd98af2b269e0bce8f33438dc1.html">Template Function embers::operator&lt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1afa92a3cd98af2b269e0bce8f33438dc1.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a5bf89f6f2c997ff4a805844c088e23de.html">Template Function embers::operator&lt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a5bf89f6f2c997ff4a805844c088e23de.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1aeb9d61652c09be64c34e63212149e6df.html">Template Function embers::operator&lt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1aeb9d61652c09be64c34e63212149e6df.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1aabe098d9648b6decfbee4529bf4f6a24.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1aabe098d9648b6decfbee4529bf4f6a24.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1abfeb1a8bd074e424589eed79baacff2e.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1abfeb1a8bd074e424589eed79baacff2e.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a6aba1ec9b372470c2a808b654a74f48c.html">Template Function embers::operator&lt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a6aba1ec9b372470c2a808b654a74f48c.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a05d93b6ae4a20294972277de664b10de.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a05d93b6ae4a20294972277de664b10de.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1af2d6ba0e24e767430c3c74879f1e0b48.html">Template Function embers::operator&lt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1af2d6ba0e24e767430c3c74879f1e0b48.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1aca5261e7d558cd4f454838adbe33b24d.html">Template Function embers::operator&lt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1aca5261e7d558cd4f454838adbe33b24d.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1ad2e7027352499570ac0fedfcb2b39786.html">Template Function embers::operator==(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1ad2e7027352499570ac0fedfcb2b39786.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a3f5e4c85288f43a641f711df331bb887.html">Template Function embers::operator==(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a3f5e4c85288f43a641f711df331bb887.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a4e2ce67beeadeec3cda42a62f22c7537.html">Template Function embers::operator==(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a4e2ce67beeadeec3cda42a62f22c7537.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a57b3ac5aec6aa5b6636abf3f32a712b2.html">Template Function embers::operator==(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a57b3ac5aec6aa5b6636abf3f32a712b2.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1abd7ba587e86f5828458d79fae8a61e39.html">Template Function embers::operator&gt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1abd7ba587e86f5828458d79fae8a61e39.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1af0aac460500a85e1e6490ea745d3fd41.html">Template Function embers::operator&gt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1af0aac460500a85e1e6490ea745d3fd41.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a63833f6659853df77136340dd991f874.html">Template Function embers::operator&gt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a63833f6659853df77136340dd991f874.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a9de1f51c9b89ea4ba7523332eb03ad9c.html">Template Function embers::operator&gt;(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a9de1f51c9b89ea4ba7523332eb03ad9c.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a7a926827181a89acb96059c9c72919fa.html">Template Function embers::operator&gt;(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a7a926827181a89acb96059c9c72919fa.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a5d29e606b8ce738638cbb124206aa734.html">Template Function embers::operator&gt;(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a5d29e606b8ce738638cbb124206aa734.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a0545e027ee08a730b11d8d5caee3468f.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a0545e027ee08a730b11d8d5caee3468f.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a81f4ded0691dcb7594cb435668836cc0.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a81f4ded0691dcb7594cb435668836cc0.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a1a3a4c5e1cc71c342a24256bd61c06ef.html">Template Function embers::operator&gt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a1a3a4c5e1cc71c342a24256bd61c06ef.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a21ccd087fff05fa3eb4a818c60ac9f5e.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T1, D1&gt;&amp;, const unique_ptr&lt;T2, D2&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a21ccd087fff05fa3eb4a818c60ac9f5e.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a132d0719bdc10e0f924bb8b2a3356b5a.html">Template Function embers::operator&gt;=(const unique_ptr&lt;T, D&gt;&amp;, std::nullptr_t)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a132d0719bdc10e0f924bb8b2a3356b5a.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a08574bb6a37f092f38b65f94c109ab9d.html">Template Function embers::operator&gt;=(std::nullptr_t, const unique_ptr&lt;T, D&gt;&amp;)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a08574bb6a37f092f38b65f94c109ab9d.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_fill__buffer__rand_8h_1aa3729496f8bd10d70b8712d320981526.html">Template Function embers::rand::FillBufferRandom(T *, size_t, xorshift128p_state *, T, T)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_fill__buffer__rand_8h_1aa3729496f8bd10d70b8712d320981526.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565.html">Template Function embers::rand::FillBufferRandom(T *, size_t, xorshift128p_state *, T, T)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_fill__buffer__rand_8h_1a657918ec56e6075bc08b8647df523565.html#function-documentation">Function Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d.html">Function embers::rand::lcg_parkmiller</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_lcgparkmiller_8h_1ab3edeaf64e2e305cd324ba3114ad804d.html#_CPPv4N6embers4rand14lcg_parkmillerEP8uint32_t"><code class="docutils literal notranslate"><span class="pre">lcg_parkmiller()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_rand_8h_1a56b9de419b2050932d195fdde17288d8.html">Template Function embers::rand::rand</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_rand_8h_1a56b9de419b2050932d195fdde17288d8.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_rand_8h_1a56b9de419b2050932d195fdde17288d8.html#_CPPv4I0EN6embers4rand4randE1T8uint32_t"><code class="docutils literal notranslate"><span class="pre">rand()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26.html">Function embers::StatusFromHipError</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_status_8h_1a2381ad6f24d1309a456ba569fdec4a26.html#_CPPv4N6embers18StatusFromHipErrorE10hipError_tK19std_source_location"><code class="docutils literal notranslate"><span class="pre">StatusFromHipError()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe.html">Function embers::std_memory_order_to_int</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_memory__model_8h_1ac728c7c3bdf7b9ba9b05d306da4e4efe.html#_CPPv4N6embers23std_memory_order_to_intENSt12memory_orderE"><code class="docutils literal notranslate"><span class="pre">std_memory_order_to_int()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="function_unique__ptr_8h_1a388996948643e647c222cf9d5a80e938.html">Template Function std::swap</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="function_unique__ptr_8h_1a388996948643e647c222cf9d5a80e938.html#function-documentation">Function Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="function_unique__ptr_8h_1a388996948643e647c222cf9d5a80e938.html#_CPPv4I00ENSt4swapEvRN6embers10unique_ptrI1T1DEERN6embers10unique_ptrI1T1DEE"><code class="docutils literal notranslate"><span class="pre">swap()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="variables">
+<h3>Variables<a class="headerlink" href="#variables" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_ethash__consts_8h_1a1b6630776122ecff6bd4dd9daed27904.html">Variable embers::crypto::ethash::EthashCacheSizes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_ethash__consts_8h_1a1b6630776122ecff6bd4dd9daed27904.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_ethash__consts_8h_1a1b6630776122ecff6bd4dd9daed27904.html#_CPPv4N6embers6crypto6ethash16EthashCacheSizesE"><code class="docutils literal notranslate"><span class="pre">EthashCacheSizes</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_ethash__consts_8h_1af298158032a3591ca05e283eacbb86ec.html">Variable embers::crypto::ethash::EthashDAGSizes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_ethash__consts_8h_1af298158032a3591ca05e283eacbb86ec.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_ethash__consts_8h_1af298158032a3591ca05e283eacbb86ec.html#_CPPv4N6embers6crypto6ethash14EthashDAGSizesE"><code class="docutils literal notranslate"><span class="pre">EthashDAGSizes</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_helpers_8h_1a993483bb9af8a24fad6d0554039b0748.html">Variable embers::crypto::HASH256_H1_NUM_INDEXES</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_helpers_8h_1a993483bb9af8a24fad6d0554039b0748.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_helpers_8h_1a993483bb9af8a24fad6d0554039b0748.html#_CPPv4N6embers6crypto22HASH256_H1_NUM_INDEXESE"><code class="docutils literal notranslate"><span class="pre">HASH256_H1_NUM_INDEXES</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_helpers_8h_1a9a4ef85e65a01ec3e95704fdd5ee107e.html">Variable embers::crypto::HASH256_H2_NUM_INDEXES</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_helpers_8h_1a9a4ef85e65a01ec3e95704fdd5ee107e.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_helpers_8h_1a9a4ef85e65a01ec3e95704fdd5ee107e.html#_CPPv4N6embers6crypto22HASH256_H2_NUM_INDEXESE"><code class="docutils literal notranslate"><span class="pre">HASH256_H2_NUM_INDEXES</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_helpers_8h_1a3012edd3d76f513c96da557e549f44dd.html">Variable embers::crypto::HASH256_H4_NUM_INDEXES</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_helpers_8h_1a3012edd3d76f513c96da557e549f44dd.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_helpers_8h_1a3012edd3d76f513c96da557e549f44dd.html#_CPPv4N6embers6crypto22HASH256_H4_NUM_INDEXESE"><code class="docutils literal notranslate"><span class="pre">HASH256_H4_NUM_INDEXES</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_helpers_8h_1a3b7ba89927c9068a5a1bcc85c71acc73.html">Variable embers::crypto::HASH256_H8_NUM_INDEXES</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_helpers_8h_1a3b7ba89927c9068a5a1bcc85c71acc73.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_helpers_8h_1a3b7ba89927c9068a5a1bcc85c71acc73.html#_CPPv4N6embers6crypto22HASH256_H8_NUM_INDEXESE"><code class="docutils literal notranslate"><span class="pre">HASH256_H8_NUM_INDEXES</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9.html">Variable embers::HAVE_STD_SOURCE_LOCATION</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9.html#variable-documentation">Variable Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="variable_std__source__location_8h_1a153a401bd57b236cb13b34e99b23f9e9.html#_CPPv4N6embers24HAVE_STD_SOURCE_LOCATIONE"><code class="docutils literal notranslate"><span class="pre">HAVE_STD_SOURCE_LOCATION</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="defines">
+<h3>Defines<a class="headerlink" href="#defines" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="define_std__source__location_8h_1a20cb5df3f88bd07135a416ab670710b2.html">Define _EMBERS_HAVE_STD_EXP_SOURCE_LOCATION</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="define_std__source__location_8h_1a20cb5df3f88bd07135a416ab670710b2.html#define-documentation">Define Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="define_std__source__location_8h_1ab43b2ef3bb550cf9543e26646586bf8a.html">Define _EMBERS_HAVE_STD_SOURCE_LOCATION</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="define_std__source__location_8h_1ab43b2ef3bb550cf9543e26646586bf8a.html#define-documentation">Define Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="typedefs">
+<h3>Typedefs<a class="headerlink" href="#typedefs" title="Link to this heading"></a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d.html">Typedef embers::std_source_location</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d.html#typedef-documentation">Typedef Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="typedef_std__source__location_8h_1a0304186c5eef84c560cbf0b36d756c6d.html#_CPPv4N6embers19std_source_locationE"><code class="docutils literal notranslate"><span class="pre">std_source_location</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to Embers’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="namespace_embers.html" class="btn btn-neutral float-right" title="Namespace embers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020 Advanced Micro Devices, Inc. All rights reserved.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
