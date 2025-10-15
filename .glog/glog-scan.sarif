@@ -12,9 +12,10 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "glog-ca703c61-2b71-4ad8-b45a-850c210bd942",
+              "id": "f0d3506e-824b-3948-b73c-1073ceb94a52",
               "help": {
-                "text": ""
+                "text": "",
+                "markdown": "## Description\n\nIn C++ programming, the use of non-cryptographic or weak random number generators can lead to vulnerabilities. The `rand()` function, for example, is a weak random number generator because it is predictable and can be easily reproduced. This can lead to security issues, especially when used in security-sensitive contexts such as generating passwords, cryptographic keys, or any other security parameters.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, it is recommended to use a strong, cryptographic random number generator. In C++, this can be achieved by using functions provided by libraries such as `<random>` or `<cryptopp>`.\n\n## Source Code Fix Recommendation\n\nInstead of using `rand()`, you can use `std::random_device` from the `<random>` library to generate a truly random number. Here is an example:\n\n```cpp\n#include <random>\n\nint main() {\n    std::random_device rd;\n    int random_number = rd();\n    // Use random_number\n    return 0;\n}\n```\n\nIn this code, `std::random_device` is a uniformly-distributed integer random number generator that produces non-deterministic random numbers.\n\n## Library Dependencies\n\nThe above code requires the `<random>` library.\n\n## References\n\n- [CWE-338: Use of Cryptographically Weak PRNG](https://cwe.mitre.org/data/definitions/338.html)"
               },
               "properties": {
                 "tags": [
@@ -34,10 +35,12 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "glog-ca703c61-2b71-4ad8-b45a-850c210bd942",
+          "ruleId": "f0d3506e-824b-3948-b73c-1073ceb94a52",
           "kind": "fail",
           "level": "error",
-          "message": {},
+          "message": {
+            "text": "Avoid Using Non-Cryptographic or Weak Random Number Generators"
+          },
           "locations": [
             {
               "physicalLocation": {
